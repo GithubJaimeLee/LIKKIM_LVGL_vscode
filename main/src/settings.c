@@ -5,11 +5,13 @@
 
 #include "lvgl/lvgl.h"
 #include <unistd.h>
+#include "about_device.c"  // 导入 about_device.c
 
 LV_IMG_DECLARE(mouse_cursor_icon); // 确保声明 mouse_cursor_icon
 
 static lv_display_t * hal_init(int32_t w, int32_t h);
 static void back_btn_event_handler(lv_event_t * e); // 声明Back按钮事件处理函数
+static void about_btn_event_handler(lv_event_t * e); // 声明About Device按钮事件处理函数
 
 lv_obj_t * create_button(lv_obj_t * parent, const char * text, lv_coord_t y_offset, lv_color_t text_color);
 
@@ -49,7 +51,8 @@ void load_settings_screen() {
     create_button(container, "Wallpaper", -90, lv_color_black());
     create_button(container, "Language", -50, lv_color_black());
     create_button(container, "Brightness", -10, lv_color_black());
-    create_button(container, "About Device", 30, lv_color_black());
+    lv_obj_t * about_btn = create_button(container, "About Device", 30, lv_color_black());
+    lv_obj_add_event_cb(about_btn, about_btn_event_handler, LV_EVENT_CLICKED, NULL);  // 设置点击事件处理函数
     create_button(container, "System Update", 70, lv_color_black());
     create_button(container, "Reset Device", 110, lv_color_black());
     create_button(container, "Power Off", 150, lv_color_hex(0xFF0000));  
@@ -116,4 +119,11 @@ lv_obj_t * create_button(lv_obj_t * parent, const char * text, lv_coord_t y_offs
 static void back_btn_event_handler(lv_event_t * e) {
     extern void load_main_screen(); // 声明外部函数
     load_main_screen(); // 调用函数加载 main 屏幕
+}
+
+/**
+ * About Device 按钮点击事件处理函数
+ */
+static void about_btn_event_handler(lv_event_t * e) {
+    load_about_device_screen();  // 加载 About Device 页面
 }
