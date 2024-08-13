@@ -117,16 +117,17 @@ static lv_display_t * hal_init(int32_t w, int32_t h)
 void load_main_screen() {
 	gui_data_init();
  
-//	extern void view_transaction_main_start(void); // 声明查看交易主界面启动函数
-//	view_transaction_main_start(); // 启动查看交易的主界面
+ // 付款
+ //	extern void view_transaction_main_start(void); // 声明查看交易主界面启动函数
+ //	view_transaction_main_start(); // 启动查看交易的主界面
 
-	extern void menu_main_start(void); // 声明主菜单启动函数
-	menu_main_start(); // 启动主菜单界面
+//主菜单
+	// extern void menu_main_start(void); // 声明主菜单启动函数
+	// menu_main_start(); // 启动主菜单界面
 
-//	extern void menu_main_start(void); // 声明主菜单启动函数
-//	menu_main_start(); // 启动主菜单界面
-//	extern void startup_import_wallet_start(void); // 声明启动导入钱包功能的函数
-//	view_transaction_main_start(); // 启动查看交易的主界面
+//还原钱包
+ 	extern void startup_import_wallet_start(void); // 声明启动导入钱包功能的函数
+ 	startup_import_wallet_start(); // 启动导入钱包功能的函数
 
 
 	return;
