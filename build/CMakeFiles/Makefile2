@@ -103,9 +103,9 @@ lvgl/clean: lvgl/CMakeFiles/lvgl_demos.dir/clean
 
 # All Build rule for target.
 CMakeFiles/main.dir/all: lvgl/CMakeFiles/lvgl.dir/all
-CMakeFiles/main.dir/all: lvgl/CMakeFiles/lvgl_demos.dir/all
 CMakeFiles/main.dir/all: lvgl/CMakeFiles/lvgl_thorvg.dir/all
 CMakeFiles/main.dir/all: lvgl/CMakeFiles/lvgl_examples.dir/all
+CMakeFiles/main.dir/all: lvgl/CMakeFiles/lvgl_demos.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target main"
