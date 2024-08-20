@@ -4,6 +4,7 @@
 
 #include "settings_about.h"
 #include "gui_comm.h"
+#include "gui_data_comm.h"
 
 extern void settings_main_start(void);
 
@@ -25,8 +26,11 @@ static void settings_about_bg_cont(lv_obj_t* parent)
     gui_comm_draw_title(parent, "About Device", title_cb);
 
     lv_obj_t *bg_obj = lv_obj_create(parent);
+    lv_obj_remove_style_all(bg_obj);
 	lv_obj_set_scroll_dir(bg_obj, LV_DIR_VER);
-	lv_obj_set_style_bg_color(bg_obj, lv_color_hex(0x888888), LV_PART_MAIN);
+    lv_obj_set_style_bg_color(bg_obj, lv_color_hex(0x888888), LV_PART_MAIN);
+    lv_obj_set_style_bg_opa(bg_obj, LV_OPA_COVER, LV_PART_MAIN);
+    lv_obj_set_style_radius(bg_obj, 15, LV_PART_MAIN);
     lv_obj_set_size(bg_obj, 200, 238);
     lv_obj_set_pos(bg_obj, 20, 66);
 
@@ -41,49 +45,63 @@ static void settings_about_bg_cont(lv_obj_t* parent)
     lv_obj_set_style_text_color(label_model_info, lv_color_hex(0xffffff), 0);
     lv_obj_set_style_text_font(label_model_info, &lv_font_montserrat_12, 0);
     lv_obj_set_pos(label_model_info, 20, 35);
-    lv_label_set_text(label_model_info, "LIKKIM");
+    lv_label_set_text(label_model_info, gui_data_get_modle_name());
     lv_obj_add_flag(label_model_info, LV_OBJ_FLAG_SCROLL_CHAIN | LV_OBJ_FLAG_EVENT_BUBBLE);
     
-    lv_obj_t *label_bluetooth = lv_label_create(bg_obj);
-    lv_obj_set_style_text_color(label_bluetooth, lv_color_hex(0xffffff), 0);
-    lv_obj_set_style_text_font(label_bluetooth, &lv_font_montserrat_12, 0);
-    lv_obj_set_pos(label_bluetooth, 20, 60);
-    lv_label_set_text(label_bluetooth, "Bluetooth Name");
-    lv_obj_add_flag(label_bluetooth, LV_OBJ_FLAG_SCROLL_CHAIN | LV_OBJ_FLAG_EVENT_BUBBLE);
+    lv_obj_t *label_bluetooth_name = lv_label_create(bg_obj);
+    lv_obj_set_style_text_color(label_bluetooth_name, lv_color_hex(0xffffff), 0);
+    lv_obj_set_style_text_font(label_bluetooth_name, &lv_font_montserrat_12, 0);
+    lv_obj_set_pos(label_bluetooth_name, 20, 60);
+    lv_label_set_text(label_bluetooth_name, "Bluetooth Name");
+    lv_obj_add_flag(label_bluetooth_name, LV_OBJ_FLAG_SCROLL_CHAIN | LV_OBJ_FLAG_EVENT_BUBBLE);
 	
-    lv_obj_t *label_bluetooth_info = lv_label_create(bg_obj);
-    lv_obj_set_style_text_color(label_bluetooth_info, lv_color_hex(0xffffff), 0);
-    lv_obj_set_style_text_font(label_bluetooth_info, &lv_font_montserrat_12, 0);
-    lv_obj_set_pos(label_bluetooth_info, 20, 75);
-    lv_label_set_text(label_bluetooth_info, "LIKKIM");
-    lv_obj_add_flag(label_bluetooth_info, LV_OBJ_FLAG_SCROLL_CHAIN | LV_OBJ_FLAG_EVENT_BUBBLE);
+    lv_obj_t *label_bluetooth_name_info = lv_label_create(bg_obj);
+    lv_obj_set_style_text_color(label_bluetooth_name_info, lv_color_hex(0xffffff), 0);
+    lv_obj_set_style_text_font(label_bluetooth_name_info, &lv_font_montserrat_12, 0);
+    lv_obj_set_pos(label_bluetooth_name_info, 20, 75);
+    lv_label_set_text(label_bluetooth_name_info, gui_data_get_bluetooth_name());
+    lv_obj_add_flag(label_bluetooth_name_info, LV_OBJ_FLAG_SCROLL_CHAIN | LV_OBJ_FLAG_EVENT_BUBBLE);
 	
     lv_obj_t *label_system = lv_label_create(bg_obj);
     lv_obj_set_style_text_color(label_system, lv_color_hex(0xffffff), 0);
     lv_obj_set_style_text_font(label_system, &lv_font_montserrat_12, 0);
     lv_obj_set_pos(label_system, 20, 100);
-    lv_label_set_text(label_system, "system Name");
+    lv_label_set_text(label_system, "System");
     lv_obj_add_flag(label_system, LV_OBJ_FLAG_SCROLL_CHAIN | LV_OBJ_FLAG_EVENT_BUBBLE);
 	
     lv_obj_t *label_system_info = lv_label_create(bg_obj);
     lv_obj_set_style_text_color(label_system_info, lv_color_hex(0xffffff), 0);
     lv_obj_set_style_text_font(label_system_info, &lv_font_montserrat_12, 0);
     lv_obj_set_pos(label_system_info, 20, 115);
-    lv_label_set_text(label_system_info, "Syetem");
+    lv_label_set_text(label_system_info, gui_data_get_system());
     lv_obj_add_flag(label_system_info, LV_OBJ_FLAG_SCROLL_CHAIN | LV_OBJ_FLAG_EVENT_BUBBLE);
 	
+    lv_obj_t *label_bluetooth = lv_label_create(bg_obj);
+    lv_obj_set_style_text_color(label_bluetooth, lv_color_hex(0xffffff), 0);
+    lv_obj_set_style_text_font(label_bluetooth, &lv_font_montserrat_12, 0);
+    lv_obj_set_pos(label_bluetooth, 20, 140);
+    lv_label_set_text(label_bluetooth, "Bluetooth");
+    lv_obj_add_flag(label_bluetooth, LV_OBJ_FLAG_SCROLL_CHAIN | LV_OBJ_FLAG_EVENT_BUBBLE);
+	
+    lv_obj_t *label_bluetooth_info = lv_label_create(bg_obj);
+    lv_obj_set_style_text_color(label_bluetooth_info, lv_color_hex(0xffffff), 0);
+    lv_obj_set_style_text_font(label_bluetooth_info, &lv_font_montserrat_12, 0);
+    lv_obj_set_pos(label_bluetooth_info, 20, 155);
+    lv_label_set_text(label_bluetooth_info, gui_data_get_bluetooth());
+    lv_obj_add_flag(label_bluetooth_info, LV_OBJ_FLAG_SCROLL_CHAIN | LV_OBJ_FLAG_EVENT_BUBBLE);
+    
     lv_obj_t *label_bootloader = lv_label_create(bg_obj);
     lv_obj_set_style_text_color(label_bootloader, lv_color_hex(0xffffff), 0);
     lv_obj_set_style_text_font(label_bootloader, &lv_font_montserrat_12, 0);
-    lv_obj_set_pos(label_bootloader, 20, 140);
-    lv_label_set_text(label_bootloader, "bootloader Name");
+    lv_obj_set_pos(label_bootloader, 20, 180);
+    lv_label_set_text(label_bootloader, "Bootloader");
     lv_obj_add_flag(label_bootloader, LV_OBJ_FLAG_SCROLL_CHAIN | LV_OBJ_FLAG_EVENT_BUBBLE);
 	
     lv_obj_t *label_bootloader_info = lv_label_create(bg_obj);
     lv_obj_set_style_text_color(label_bootloader_info, lv_color_hex(0xffffff), 0);
     lv_obj_set_style_text_font(label_bootloader_info, &lv_font_montserrat_12, 0);
-    lv_obj_set_pos(label_bootloader_info, 20, 155);
-    lv_label_set_text(label_bootloader_info, "Syetem");
+    lv_obj_set_pos(label_bootloader_info, 20, 195);
+    lv_label_set_text(label_bootloader_info, gui_data_get_bootloader());
     lv_obj_add_flag(label_bootloader_info, LV_OBJ_FLAG_SCROLL_CHAIN | LV_OBJ_FLAG_EVENT_BUBBLE);
 }
 

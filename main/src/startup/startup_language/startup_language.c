@@ -32,8 +32,20 @@ static gui_comm_imgbtn_desc_t startup_language_desc_table[] =
 };
 extern void general_main_start(void);
 extern void startup_quick_start_start(void);
+extern void startup_screen_start(void);
 
 static startup_language_t* p_startup_language = NULL;
+
+static void title_cb(lv_event_t* e)
+{
+    lv_event_code_t event = lv_event_get_code(e);
+
+    if (LV_EVENT_SHORT_CLICKED == event)
+    {
+        startup_language_stop();
+        startup_screen_start();
+    }
+}
 
 static void startup_language_event_handler(lv_event_t* e)
 {
@@ -54,6 +66,7 @@ static void startup_language_event_handler(lv_event_t* e)
         startup_language_stop();
     }
 }
+
 static void startup_language_bg_cont(lv_obj_t* parent)
 {
 	gui_comm_draw_title(parent, "Language", NULL);

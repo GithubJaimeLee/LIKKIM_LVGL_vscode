@@ -48,16 +48,15 @@ static void startup_screen_bg_cont(lv_obj_t* parent)
     lv_img_set_src(bg_img, gui_data_get_bg_src());
     lv_obj_center(bg_img);
 
-    lv_obj_t* img_name = lv_img_create(parent);
-    lv_img_set_src(img_name, &img_name);
-    lv_obj_center(img_name);
+    bg_img = lv_img_create(parent);
+    lv_img_set_src(bg_img, &img_name);
+    lv_obj_align(bg_img, LV_ALIGN_TOP_MID, 0, 50);
 
     lv_obj_t* scroll_img = lv_img_create(parent);
     lv_img_set_src(scroll_img, &img_startup_arrow);
     lv_obj_set_pos(scroll_img, 116, 263);
     p_startup_screen->scroll_img = scroll_img;
 	
-
     lv_obj_t* scroll_label = lv_label_create(parent);
     lv_label_set_text(scroll_label, "Swipe up to show apps");
     lv_obj_set_style_text_color(scroll_label, lv_color_hex(0xffffff), 0);

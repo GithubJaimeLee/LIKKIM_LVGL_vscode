@@ -7,6 +7,8 @@
 #include "gui_data_comm.h"
 
 extern void menu_main_start(void);
+extern void startup_incorrect_word_start(void);
+
 
 static startup_verification_t* p_startup_verification = NULL;
 
@@ -21,6 +23,13 @@ static gui_comm_imgbtn_desc_t startup_imgbtn_num_table[] =
     {"word", 20, 194},
     {"word", 130, 194},
 };
+static uint8_t get_rand_num(void)
+{
+	srand(lv_tick_get() + p_startup_verification->last_rand);
+	p_startup_verification->last_rand = rand();
+	printf("num : %d\n", p_startup_verification->last_rand % 4);
+	return p_startup_verification->last_rand % 4;
+}
 
 static void word_cb1(lv_event_t* e)
 {
@@ -28,12 +37,19 @@ static void word_cb1(lv_event_t* e)
 
     if (LV_EVENT_SHORT_CLICKED == event)
     {
+		printf("e->user_data : %s\n", (char *)e->user_data);
 		if (0 == lv_strcmp(gui_data_get_word(p_startup_verification->page_id), e->user_data))
+		{
 	        p_startup_verification->state |= WORD_VERIFACATION_STATE_1;
-	    else 
+	        lv_imagebutton_set_src(e->original_target, LV_IMAGEBUTTON_STATE_RELEASED, &img_left_released_6c6cf4_14x26, &img_mid_released_6c6cf4_4x26, &img_right_released_6c6cf4_14x26);
+		    lv_imagebutton_set_src(e->original_target, LV_IMAGEBUTTON_STATE_PRESSED, &img_left_pressed_9797ff_14x26, &img_mid_pressed_9797ff_4x26, &img_right_pressed_9797ff_14x26);
+	    }
+	    else
+	    {
 	    	p_startup_verification->state &= ~WORD_VERIFACATION_STATE_1;
-	    	
-        printf("setting verification:%s  state:%x\n", (char*)e->user_data, p_startup_verification->state);
+	    	startup_verification_stop();
+	    	startup_incorrect_word_start();
+	    }
     }
 }
 static void word_cb2(lv_event_t* e)
@@ -42,12 +58,19 @@ static void word_cb2(lv_event_t* e)
 
     if (LV_EVENT_SHORT_CLICKED == event)
     {
+		printf("e->user_data : %s\n", (char *)e->user_data);
 		if (0 == lv_strcmp(gui_data_get_word(p_startup_verification->page_id + 1), e->user_data))
-	        p_startup_verification->state |= WORD_VERIFACATION_STATE_2;
-	    else 
+		{
+			p_startup_verification->state |= WORD_VERIFACATION_STATE_2;
+			lv_imagebutton_set_src(e->original_target, LV_IMAGEBUTTON_STATE_RELEASED, &img_left_released_6c6cf4_14x26, &img_mid_released_6c6cf4_4x26, &img_right_released_6c6cf4_14x26);
+			lv_imagebutton_set_src(e->original_target, LV_IMAGEBUTTON_STATE_PRESSED, &img_left_pressed_9797ff_14x26, &img_mid_pressed_9797ff_4x26, &img_right_pressed_9797ff_14x26);
+		}
+	    else
+	    {
 	    	p_startup_verification->state &= ~WORD_VERIFACATION_STATE_2;
-	    	
-        printf("setting verification:%s  state:%x\n", (char*)e->user_data, p_startup_verification->state);
+	    	startup_verification_stop();
+	    	startup_incorrect_word_start();
+	    }
     }
 }
 static void continue_cb(lv_event_t* e)
@@ -67,29 +90,54 @@ static void continue_cb(lv_event_t* e)
 			startup_verification_stop();
             return;
         }
+
+        uint8_t rand1 = get_rand_num();
+        uint8_t rand2 = get_rand_num() + 4;
         lv_label_set_text_fmt(p_startup_verification->label_describe1, "Verification Word#%d", p_startup_verification->page_id + 1);
         lv_label_set_text_fmt(p_startup_verification->label_describe2, "Verification Word#%d", p_startup_verification->page_id + 2);
         
 		for (uint8_t i = 0; i < sizeof(startup_imgbtn_num_table) / sizeof(gui_comm_imgbtn_desc_t); i++)
 		{
-			if(i == 0)
+			if(i < 4)
 			{
-				lv_label_set_text(p_startup_verification->label_word[i], gui_data_get_word(p_startup_verification->page_id));
-			}
-			else if(i == 4)
-			{
-				lv_label_set_text(p_startup_verification->label_word[i], gui_data_get_word(p_startup_verification->page_id + 1));
+				if(i == rand1)
+				{
+					lv_label_set_text(p_startup_verification->label_word[i], gui_data_get_word(p_startup_verification->page_id));
+					lv_obj_remove_event_cb(p_startup_verification->btn_word[i], word_cb1);
+					lv_obj_add_event_cb(p_startup_verification->btn_word[i], word_cb1, LV_EVENT_SHORT_CLICKED, gui_data_get_word(p_startup_verification->page_id));
+				}
+				else
+				{
+					lv_label_set_text(p_startup_verification->label_word[i], startup_imgbtn_num_table[i].str);
+					lv_obj_remove_event_cb(p_startup_verification->btn_word[i], word_cb1);
+					lv_obj_add_event_cb(p_startup_verification->btn_word[i], word_cb1, LV_EVENT_SHORT_CLICKED, (void *)startup_imgbtn_num_table[i].str);
+				}
 			}
 			else
 			{
-				lv_label_set_text(p_startup_verification->label_word[i], startup_imgbtn_num_table[i].str);
+				if(i == rand2)
+				{
+					lv_label_set_text(p_startup_verification->label_word[i], gui_data_get_word(p_startup_verification->page_id + 1));
+					lv_obj_remove_event_cb(p_startup_verification->btn_word[i], word_cb2);
+					lv_obj_add_event_cb(p_startup_verification->btn_word[i], word_cb2, LV_EVENT_SHORT_CLICKED, gui_data_get_word(p_startup_verification->page_id + 1));
+				}
+				else
+				{
+					lv_label_set_text(p_startup_verification->label_word[i], startup_imgbtn_num_table[i].str);
+					lv_obj_remove_event_cb(p_startup_verification->btn_word[i], word_cb2);
+					lv_obj_add_event_cb(p_startup_verification->btn_word[i], word_cb2, LV_EVENT_SHORT_CLICKED, (void *)startup_imgbtn_num_table[i].str);
+				}
 			}
+	        lv_imagebutton_set_src(p_startup_verification->btn_word[i], LV_IMAGEBUTTON_STATE_RELEASED, &img_left_released_888888_14x26, &img_mid_released_888888_4x26, &img_right_released_888888_14x26);
+	        lv_imagebutton_set_src(p_startup_verification->btn_word[i], LV_IMAGEBUTTON_STATE_PRESSED, &img_left_pressed_bbbbbb_14x26, &img_mid_pressed_bbbbbb_4x26, &img_right_pressed_bbbbbb_14x26);
 			lv_obj_update_layout(p_startup_verification->label_word[i]);
 		}
     }
 }
 static void startup_verification_bg_cont(lv_obj_t* parent)
 {
+    uint8_t rand1 = get_rand_num();
+    uint8_t rand2 = get_rand_num() + 4;
     gui_comm_draw_title(parent, "Verification Phrase", NULL);
 
     lv_obj_t* label_describe1 = lv_label_create(parent);
@@ -127,7 +175,7 @@ static void startup_verification_bg_cont(lv_obj_t* parent)
 
         if(i < 4)
 		{
-			if(i == 0)
+			if(i == rand1)
 			{
 				lv_label_set_text(label, gui_data_get_word(0));
 				lv_obj_add_event_cb(img_btn, word_cb1, LV_EVENT_SHORT_CLICKED, gui_data_get_word(p_startup_verification->page_id));
@@ -140,7 +188,7 @@ static void startup_verification_bg_cont(lv_obj_t* parent)
 		}
         else
 		{
-			if(i == 4)
+			if(i == rand2)
 			{
 				lv_label_set_text(label, gui_data_get_word(1));
 	        	lv_obj_add_event_cb(img_btn, word_cb2, LV_EVENT_SHORT_CLICKED, gui_data_get_word(p_startup_verification->page_id + 1));
@@ -154,11 +202,12 @@ static void startup_verification_bg_cont(lv_obj_t* parent)
         lv_obj_align(label, LV_ALIGN_CENTER, 0, 0);
         lv_obj_update_layout(label);
         p_startup_verification->label_word[i] = label;
+		p_startup_verification->btn_word[i] = img_btn;
     }
 
     lv_obj_t* img_btn_continue = lv_imagebutton_create(parent);
     lv_imagebutton_set_src(img_btn_continue, LV_IMAGEBUTTON_STATE_RELEASED, &img_left_released_6c6cf4_14x26, &img_mid_released_6c6cf4_4x26, &img_right_released_6c6cf4_14x26);
-    lv_imagebutton_set_src(img_btn_continue, LV_IMAGEBUTTON_STATE_PRESSED, &img_left_released_6c6cf4_14x26, &img_mid_released_6c6cf4_4x26, &img_right_released_6c6cf4_14x26);
+    lv_imagebutton_set_src(img_btn_continue, LV_IMAGEBUTTON_STATE_PRESSED, &img_left_pressed_9797ff_14x26, &img_mid_pressed_9797ff_4x26, &img_right_pressed_9797ff_14x26);
     lv_obj_set_width(img_btn_continue, 200);
     lv_obj_set_pos(img_btn_continue, 20, 278);
     lv_obj_add_event_cb(img_btn_continue, continue_cb, LV_EVENT_SHORT_CLICKED, NULL);

@@ -21,11 +21,13 @@ typedef struct
 	lv_obj_t* bg_cont;
 	lv_obj_t* label_describe1;
 	lv_obj_t* label_describe2;
-	
+
+	lv_obj_t* btn_word[8];
 	lv_obj_t* label_word[8];
 
 	word_verification_state_t state;
 	uint8_t page_id;
+	uint8_t last_rand;
 } startup_verification_t;
 
 

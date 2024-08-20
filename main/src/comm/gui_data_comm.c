@@ -8,6 +8,84 @@
 static gui_data_t *p_gui_data = NULL;
 
 
+/********
+直接获取不存储的信息
+*********/
+
+/*获取modle名称*/
+void *gui_data_get_modle_name(void)
+{
+	return "LIKKIM";
+}
+
+/*获取bluetooth名称*/
+void *gui_data_get_bluetooth_name(void)
+{
+	return "LIKKIM";
+}
+
+/*获取system*/
+void *gui_data_get_system(void)
+{
+	return "4.9.2 [87061bb-40fd4d1]";
+}
+
+/*获取system*/
+void *gui_data_get_bluetooth(void)
+{
+	return "2.3.0 [f8bbd58-4f605f7]";
+}
+
+/*获取bootloader*/
+void *gui_data_get_bootloader(void)
+{
+	return "2.5.2 [612c9ab]";
+}
+
+/*获取Address的标题*/
+void *gui_data_get_address_title(void)
+{
+	return "Address";
+}
+
+/*获取Address的内容*/
+void *gui_data_get_address_info(void)
+{
+	return "AddressAddressAddressAddressAddressAddressAddressAddress";
+}
+
+/*获取Address的path*/
+void *gui_data_get_address_path(void)
+{
+	return "m/44’/501’/0’/0’";
+}
+
+/*获取fee_payer的内容*/
+void *gui_data_get_transaction_fee_payer(void)
+{
+	return "fee_payer_info fee_payer_info fee_payer_info fee_payer_info fee_payer_info";
+}
+
+/*获取fomat的内容*/
+void *gui_data_get_transaction_format(void)
+{
+	return "format_info format_info format_info format_info";
+}
+
+/*获取hash的内容*/
+void *gui_data_get_transaction_hash(void)
+{
+	return "hash_info hash_info hash_info hash_info hash_info";
+}
+
+
+
+
+
+
+/********
+本地存储的信息
+*********/
 uint8_t gui_data_get_bg_src_id(void)
 {
 	return p_gui_data->bg_src_id;
@@ -84,6 +162,11 @@ void gui_data_set_word(uint8_t word_index, char *word)
 {
 	printf("%s index:%d %s\n", __func__, word_index, word);
 	lv_strcpy(p_gui_data->word[word_index], word);
+
+	if(word_index == gui_data_get_word_num())
+		p_gui_data->word_set_complete = true;
+	else
+		p_gui_data->word_set_complete = false;
 }
 
 int gui_data_get_shutdown_time(void)
@@ -121,8 +204,13 @@ void gui_data_init(void)
     gui_data_set_word_num(12);
     for(uint8_t i = 0; i < gui_data_get_word_num(); i++)
     {
-	    gui_data_set_word(i, "right_word");
+		char Mnemonic[16] = "right_word";
+#if WALLET_LIB_USED
+		Mnemonic_wordShow(i,Mnemonic);
+#endif
+		gui_data_set_word(i, Mnemonic);
     }
+    
     gui_data_set_shutdown_time(10);
     gui_data_set_lock_time(10);
 }

@@ -2063,6 +2063,30 @@ main/img/img_left_pressed_8f7ff0_16x40.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_left_pressed_8f7ff0_16x40.c.s
 .PHONY : main/img/img_left_pressed_8f7ff0_16x40.c.s
 
+main/img/img_left_pressed_9797ff_14x26.o: main/img/img_left_pressed_9797ff_14x26.c.o
+.PHONY : main/img/img_left_pressed_9797ff_14x26.o
+
+# target to build an object file
+main/img/img_left_pressed_9797ff_14x26.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_left_pressed_9797ff_14x26.c.o
+.PHONY : main/img/img_left_pressed_9797ff_14x26.c.o
+
+main/img/img_left_pressed_9797ff_14x26.i: main/img/img_left_pressed_9797ff_14x26.c.i
+.PHONY : main/img/img_left_pressed_9797ff_14x26.i
+
+# target to preprocess a source file
+main/img/img_left_pressed_9797ff_14x26.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_left_pressed_9797ff_14x26.c.i
+.PHONY : main/img/img_left_pressed_9797ff_14x26.c.i
+
+main/img/img_left_pressed_9797ff_14x26.s: main/img/img_left_pressed_9797ff_14x26.c.s
+.PHONY : main/img/img_left_pressed_9797ff_14x26.s
+
+# target to generate assembly for a file
+main/img/img_left_pressed_9797ff_14x26.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_left_pressed_9797ff_14x26.c.s
+.PHONY : main/img/img_left_pressed_9797ff_14x26.c.s
+
 main/img/img_left_pressed_bbbbbb_14x26.o: main/img/img_left_pressed_bbbbbb_14x26.c.o
 .PHONY : main/img/img_left_pressed_bbbbbb_14x26.o
 
@@ -2134,6 +2158,30 @@ main/img/img_left_pressed_ff593c_16x40.s: main/img/img_left_pressed_ff593c_16x40
 main/img/img_left_pressed_ff593c_16x40.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_left_pressed_ff593c_16x40.c.s
 .PHONY : main/img/img_left_pressed_ff593c_16x40.c.s
+
+main/img/img_left_pressed_ff6247_14x26.o: main/img/img_left_pressed_ff6247_14x26.c.o
+.PHONY : main/img/img_left_pressed_ff6247_14x26.o
+
+# target to build an object file
+main/img/img_left_pressed_ff6247_14x26.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_left_pressed_ff6247_14x26.c.o
+.PHONY : main/img/img_left_pressed_ff6247_14x26.c.o
+
+main/img/img_left_pressed_ff6247_14x26.i: main/img/img_left_pressed_ff6247_14x26.c.i
+.PHONY : main/img/img_left_pressed_ff6247_14x26.i
+
+# target to preprocess a source file
+main/img/img_left_pressed_ff6247_14x26.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_left_pressed_ff6247_14x26.c.i
+.PHONY : main/img/img_left_pressed_ff6247_14x26.c.i
+
+main/img/img_left_pressed_ff6247_14x26.s: main/img/img_left_pressed_ff6247_14x26.c.s
+.PHONY : main/img/img_left_pressed_ff6247_14x26.s
+
+# target to generate assembly for a file
+main/img/img_left_pressed_ff6247_14x26.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_left_pressed_ff6247_14x26.c.s
+.PHONY : main/img/img_left_pressed_ff6247_14x26.c.s
 
 main/img/img_left_pressed_ffef4b_14x26.o: main/img/img_left_pressed_ffef4b_14x26.c.o
 .PHONY : main/img/img_left_pressed_ffef4b_14x26.o
@@ -2327,6 +2375,30 @@ main/img/img_left_released_f7e100_14x26.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_left_released_f7e100_14x26.c.s
 .PHONY : main/img/img_left_released_f7e100_14x26.c.s
 
+main/img/img_left_released_ff2600_14x26.o: main/img/img_left_released_ff2600_14x26.c.o
+.PHONY : main/img/img_left_released_ff2600_14x26.o
+
+# target to build an object file
+main/img/img_left_released_ff2600_14x26.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_left_released_ff2600_14x26.c.o
+.PHONY : main/img/img_left_released_ff2600_14x26.c.o
+
+main/img/img_left_released_ff2600_14x26.i: main/img/img_left_released_ff2600_14x26.c.i
+.PHONY : main/img/img_left_released_ff2600_14x26.i
+
+# target to preprocess a source file
+main/img/img_left_released_ff2600_14x26.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_left_released_ff2600_14x26.c.i
+.PHONY : main/img/img_left_released_ff2600_14x26.c.i
+
+main/img/img_left_released_ff2600_14x26.s: main/img/img_left_released_ff2600_14x26.c.s
+.PHONY : main/img/img_left_released_ff2600_14x26.s
+
+# target to generate assembly for a file
+main/img/img_left_released_ff2600_14x26.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_left_released_ff2600_14x26.c.s
+.PHONY : main/img/img_left_released_ff2600_14x26.c.s
+
 main/img/img_left_released_ff2600_16x40.o: main/img/img_left_released_ff2600_16x40.c.o
 .PHONY : main/img/img_left_released_ff2600_16x40.o
 
@@ -2495,6 +2567,30 @@ main/img/img_mid_pressed_8f7ff0_4x40.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_mid_pressed_8f7ff0_4x40.c.s
 .PHONY : main/img/img_mid_pressed_8f7ff0_4x40.c.s
 
+main/img/img_mid_pressed_9797ff_4x26.o: main/img/img_mid_pressed_9797ff_4x26.c.o
+.PHONY : main/img/img_mid_pressed_9797ff_4x26.o
+
+# target to build an object file
+main/img/img_mid_pressed_9797ff_4x26.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_mid_pressed_9797ff_4x26.c.o
+.PHONY : main/img/img_mid_pressed_9797ff_4x26.c.o
+
+main/img/img_mid_pressed_9797ff_4x26.i: main/img/img_mid_pressed_9797ff_4x26.c.i
+.PHONY : main/img/img_mid_pressed_9797ff_4x26.i
+
+# target to preprocess a source file
+main/img/img_mid_pressed_9797ff_4x26.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_mid_pressed_9797ff_4x26.c.i
+.PHONY : main/img/img_mid_pressed_9797ff_4x26.c.i
+
+main/img/img_mid_pressed_9797ff_4x26.s: main/img/img_mid_pressed_9797ff_4x26.c.s
+.PHONY : main/img/img_mid_pressed_9797ff_4x26.s
+
+# target to generate assembly for a file
+main/img/img_mid_pressed_9797ff_4x26.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_mid_pressed_9797ff_4x26.c.s
+.PHONY : main/img/img_mid_pressed_9797ff_4x26.c.s
+
 main/img/img_mid_pressed_bbbbbb_4x26.o: main/img/img_mid_pressed_bbbbbb_4x26.c.o
 .PHONY : main/img/img_mid_pressed_bbbbbb_4x26.o
 
@@ -2566,6 +2662,30 @@ main/img/img_mid_pressed_ff593c_4x40.s: main/img/img_mid_pressed_ff593c_4x40.c.s
 main/img/img_mid_pressed_ff593c_4x40.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_mid_pressed_ff593c_4x40.c.s
 .PHONY : main/img/img_mid_pressed_ff593c_4x40.c.s
+
+main/img/img_mid_pressed_ff6247_4x26.o: main/img/img_mid_pressed_ff6247_4x26.c.o
+.PHONY : main/img/img_mid_pressed_ff6247_4x26.o
+
+# target to build an object file
+main/img/img_mid_pressed_ff6247_4x26.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_mid_pressed_ff6247_4x26.c.o
+.PHONY : main/img/img_mid_pressed_ff6247_4x26.c.o
+
+main/img/img_mid_pressed_ff6247_4x26.i: main/img/img_mid_pressed_ff6247_4x26.c.i
+.PHONY : main/img/img_mid_pressed_ff6247_4x26.i
+
+# target to preprocess a source file
+main/img/img_mid_pressed_ff6247_4x26.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_mid_pressed_ff6247_4x26.c.i
+.PHONY : main/img/img_mid_pressed_ff6247_4x26.c.i
+
+main/img/img_mid_pressed_ff6247_4x26.s: main/img/img_mid_pressed_ff6247_4x26.c.s
+.PHONY : main/img/img_mid_pressed_ff6247_4x26.s
+
+# target to generate assembly for a file
+main/img/img_mid_pressed_ff6247_4x26.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_mid_pressed_ff6247_4x26.c.s
+.PHONY : main/img/img_mid_pressed_ff6247_4x26.c.s
 
 main/img/img_mid_pressed_ffef4b_4x26.o: main/img/img_mid_pressed_ffef4b_4x26.c.o
 .PHONY : main/img/img_mid_pressed_ffef4b_4x26.o
@@ -2759,6 +2879,30 @@ main/img/img_mid_released_f7e100_4x26.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_mid_released_f7e100_4x26.c.s
 .PHONY : main/img/img_mid_released_f7e100_4x26.c.s
 
+main/img/img_mid_released_ff2600_4x26.o: main/img/img_mid_released_ff2600_4x26.c.o
+.PHONY : main/img/img_mid_released_ff2600_4x26.o
+
+# target to build an object file
+main/img/img_mid_released_ff2600_4x26.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x26.c.o
+.PHONY : main/img/img_mid_released_ff2600_4x26.c.o
+
+main/img/img_mid_released_ff2600_4x26.i: main/img/img_mid_released_ff2600_4x26.c.i
+.PHONY : main/img/img_mid_released_ff2600_4x26.i
+
+# target to preprocess a source file
+main/img/img_mid_released_ff2600_4x26.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x26.c.i
+.PHONY : main/img/img_mid_released_ff2600_4x26.c.i
+
+main/img/img_mid_released_ff2600_4x26.s: main/img/img_mid_released_ff2600_4x26.c.s
+.PHONY : main/img/img_mid_released_ff2600_4x26.s
+
+# target to generate assembly for a file
+main/img/img_mid_released_ff2600_4x26.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x26.c.s
+.PHONY : main/img/img_mid_released_ff2600_4x26.c.s
+
 main/img/img_mid_released_ff2600_4x40.o: main/img/img_mid_released_ff2600_4x40.c.o
 .PHONY : main/img/img_mid_released_ff2600_4x40.o
 
@@ -2855,6 +2999,30 @@ main/img/img_right_pressed_8f7ff0_16x40.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_right_pressed_8f7ff0_16x40.c.s
 .PHONY : main/img/img_right_pressed_8f7ff0_16x40.c.s
 
+main/img/img_right_pressed_9797ff_14x26.o: main/img/img_right_pressed_9797ff_14x26.c.o
+.PHONY : main/img/img_right_pressed_9797ff_14x26.o
+
+# target to build an object file
+main/img/img_right_pressed_9797ff_14x26.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_right_pressed_9797ff_14x26.c.o
+.PHONY : main/img/img_right_pressed_9797ff_14x26.c.o
+
+main/img/img_right_pressed_9797ff_14x26.i: main/img/img_right_pressed_9797ff_14x26.c.i
+.PHONY : main/img/img_right_pressed_9797ff_14x26.i
+
+# target to preprocess a source file
+main/img/img_right_pressed_9797ff_14x26.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_right_pressed_9797ff_14x26.c.i
+.PHONY : main/img/img_right_pressed_9797ff_14x26.c.i
+
+main/img/img_right_pressed_9797ff_14x26.s: main/img/img_right_pressed_9797ff_14x26.c.s
+.PHONY : main/img/img_right_pressed_9797ff_14x26.s
+
+# target to generate assembly for a file
+main/img/img_right_pressed_9797ff_14x26.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_right_pressed_9797ff_14x26.c.s
+.PHONY : main/img/img_right_pressed_9797ff_14x26.c.s
+
 main/img/img_right_pressed_bbbbbb_14x26.o: main/img/img_right_pressed_bbbbbb_14x26.c.o
 .PHONY : main/img/img_right_pressed_bbbbbb_14x26.o
 
@@ -2926,6 +3094,30 @@ main/img/img_right_pressed_ff593c_16x40.s: main/img/img_right_pressed_ff593c_16x
 main/img/img_right_pressed_ff593c_16x40.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_right_pressed_ff593c_16x40.c.s
 .PHONY : main/img/img_right_pressed_ff593c_16x40.c.s
+
+main/img/img_right_pressed_ff6247_14x26.o: main/img/img_right_pressed_ff6247_14x26.c.o
+.PHONY : main/img/img_right_pressed_ff6247_14x26.o
+
+# target to build an object file
+main/img/img_right_pressed_ff6247_14x26.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_right_pressed_ff6247_14x26.c.o
+.PHONY : main/img/img_right_pressed_ff6247_14x26.c.o
+
+main/img/img_right_pressed_ff6247_14x26.i: main/img/img_right_pressed_ff6247_14x26.c.i
+.PHONY : main/img/img_right_pressed_ff6247_14x26.i
+
+# target to preprocess a source file
+main/img/img_right_pressed_ff6247_14x26.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_right_pressed_ff6247_14x26.c.i
+.PHONY : main/img/img_right_pressed_ff6247_14x26.c.i
+
+main/img/img_right_pressed_ff6247_14x26.s: main/img/img_right_pressed_ff6247_14x26.c.s
+.PHONY : main/img/img_right_pressed_ff6247_14x26.s
+
+# target to generate assembly for a file
+main/img/img_right_pressed_ff6247_14x26.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_right_pressed_ff6247_14x26.c.s
+.PHONY : main/img/img_right_pressed_ff6247_14x26.c.s
 
 main/img/img_right_pressed_ffef4b_14x26.o: main/img/img_right_pressed_ffef4b_14x26.c.o
 .PHONY : main/img/img_right_pressed_ffef4b_14x26.o
@@ -3118,6 +3310,30 @@ main/img/img_right_released_f7e100_14x26.s: main/img/img_right_released_f7e100_1
 main/img/img_right_released_f7e100_14x26.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_right_released_f7e100_14x26.c.s
 .PHONY : main/img/img_right_released_f7e100_14x26.c.s
+
+main/img/img_right_released_ff2600_14x26.o: main/img/img_right_released_ff2600_14x26.c.o
+.PHONY : main/img/img_right_released_ff2600_14x26.o
+
+# target to build an object file
+main/img/img_right_released_ff2600_14x26.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_right_released_ff2600_14x26.c.o
+.PHONY : main/img/img_right_released_ff2600_14x26.c.o
+
+main/img/img_right_released_ff2600_14x26.i: main/img/img_right_released_ff2600_14x26.c.i
+.PHONY : main/img/img_right_released_ff2600_14x26.i
+
+# target to preprocess a source file
+main/img/img_right_released_ff2600_14x26.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_right_released_ff2600_14x26.c.i
+.PHONY : main/img/img_right_released_ff2600_14x26.c.i
+
+main/img/img_right_released_ff2600_14x26.s: main/img/img_right_released_ff2600_14x26.c.s
+.PHONY : main/img/img_right_released_ff2600_14x26.s
+
+# target to generate assembly for a file
+main/img/img_right_released_ff2600_14x26.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/img/img_right_released_ff2600_14x26.c.s
+.PHONY : main/img/img_right_released_ff2600_14x26.c.s
 
 main/img/img_right_released_ff2600_16x40.o: main/img/img_right_released_ff2600_16x40.c.o
 .PHONY : main/img/img_right_released_ff2600_16x40.o
@@ -3767,6 +3983,30 @@ main/src/settings/settings_main/settings_main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/src/settings/settings_main/settings_main.c.s
 .PHONY : main/src/settings/settings_main/settings_main.c.s
 
+main/src/settings/settings_power_off/settings_power_off.o: main/src/settings/settings_power_off/settings_power_off.c.o
+.PHONY : main/src/settings/settings_power_off/settings_power_off.o
+
+# target to build an object file
+main/src/settings/settings_power_off/settings_power_off.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/src/settings/settings_power_off/settings_power_off.c.o
+.PHONY : main/src/settings/settings_power_off/settings_power_off.c.o
+
+main/src/settings/settings_power_off/settings_power_off.i: main/src/settings/settings_power_off/settings_power_off.c.i
+.PHONY : main/src/settings/settings_power_off/settings_power_off.i
+
+# target to preprocess a source file
+main/src/settings/settings_power_off/settings_power_off.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/src/settings/settings_power_off/settings_power_off.c.i
+.PHONY : main/src/settings/settings_power_off/settings_power_off.c.i
+
+main/src/settings/settings_power_off/settings_power_off.s: main/src/settings/settings_power_off/settings_power_off.c.s
+.PHONY : main/src/settings/settings_power_off/settings_power_off.s
+
+# target to generate assembly for a file
+main/src/settings/settings_power_off/settings_power_off.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/src/settings/settings_power_off/settings_power_off.c.s
+.PHONY : main/src/settings/settings_power_off/settings_power_off.c.s
+
 main/src/settings/settings_security/settings_change_pin.o: main/src/settings/settings_security/settings_change_pin.c.o
 .PHONY : main/src/settings/settings_security/settings_change_pin.o
 
@@ -4199,6 +4439,30 @@ main/src/startup/startup_screen/startup_screen.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/src/startup/startup_screen/startup_screen.c.s
 .PHONY : main/src/startup/startup_screen/startup_screen.c.s
 
+main/src/startup/startup_verification/startup_incorrect_word.o: main/src/startup/startup_verification/startup_incorrect_word.c.o
+.PHONY : main/src/startup/startup_verification/startup_incorrect_word.o
+
+# target to build an object file
+main/src/startup/startup_verification/startup_incorrect_word.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/src/startup/startup_verification/startup_incorrect_word.c.o
+.PHONY : main/src/startup/startup_verification/startup_incorrect_word.c.o
+
+main/src/startup/startup_verification/startup_incorrect_word.i: main/src/startup/startup_verification/startup_incorrect_word.c.i
+.PHONY : main/src/startup/startup_verification/startup_incorrect_word.i
+
+# target to preprocess a source file
+main/src/startup/startup_verification/startup_incorrect_word.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/src/startup/startup_verification/startup_incorrect_word.c.i
+.PHONY : main/src/startup/startup_verification/startup_incorrect_word.c.i
+
+main/src/startup/startup_verification/startup_incorrect_word.s: main/src/startup/startup_verification/startup_incorrect_word.c.s
+.PHONY : main/src/startup/startup_verification/startup_incorrect_word.s
+
+# target to generate assembly for a file
+main/src/startup/startup_verification/startup_incorrect_word.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main/src/startup/startup_verification/startup_incorrect_word.c.s
+.PHONY : main/src/startup/startup_verification/startup_incorrect_word.c.s
+
 main/src/startup/startup_verification/startup_verification.o: main/src/startup/startup_verification/startup_verification.c.o
 .PHONY : main/src/startup/startup_verification/startup_verification.o
 
@@ -4589,6 +4853,9 @@ help:
 	@echo "... main/img/img_left_pressed_8f7ff0_16x40.o"
 	@echo "... main/img/img_left_pressed_8f7ff0_16x40.i"
 	@echo "... main/img/img_left_pressed_8f7ff0_16x40.s"
+	@echo "... main/img/img_left_pressed_9797ff_14x26.o"
+	@echo "... main/img/img_left_pressed_9797ff_14x26.i"
+	@echo "... main/img/img_left_pressed_9797ff_14x26.s"
 	@echo "... main/img/img_left_pressed_bbbbbb_14x26.o"
 	@echo "... main/img/img_left_pressed_bbbbbb_14x26.i"
 	@echo "... main/img/img_left_pressed_bbbbbb_14x26.s"
@@ -4598,6 +4865,9 @@ help:
 	@echo "... main/img/img_left_pressed_ff593c_16x40.o"
 	@echo "... main/img/img_left_pressed_ff593c_16x40.i"
 	@echo "... main/img/img_left_pressed_ff593c_16x40.s"
+	@echo "... main/img/img_left_pressed_ff6247_14x26.o"
+	@echo "... main/img/img_left_pressed_ff6247_14x26.i"
+	@echo "... main/img/img_left_pressed_ff6247_14x26.s"
 	@echo "... main/img/img_left_pressed_ffef4b_14x26.o"
 	@echo "... main/img/img_left_pressed_ffef4b_14x26.i"
 	@echo "... main/img/img_left_pressed_ffef4b_14x26.s"
@@ -4622,6 +4892,9 @@ help:
 	@echo "... main/img/img_left_released_f7e100_14x26.o"
 	@echo "... main/img/img_left_released_f7e100_14x26.i"
 	@echo "... main/img/img_left_released_f7e100_14x26.s"
+	@echo "... main/img/img_left_released_ff2600_14x26.o"
+	@echo "... main/img/img_left_released_ff2600_14x26.i"
+	@echo "... main/img/img_left_released_ff2600_14x26.s"
 	@echo "... main/img/img_left_released_ff2600_16x40.o"
 	@echo "... main/img/img_left_released_ff2600_16x40.i"
 	@echo "... main/img/img_left_released_ff2600_16x40.s"
@@ -4643,6 +4916,9 @@ help:
 	@echo "... main/img/img_mid_pressed_8f7ff0_4x40.o"
 	@echo "... main/img/img_mid_pressed_8f7ff0_4x40.i"
 	@echo "... main/img/img_mid_pressed_8f7ff0_4x40.s"
+	@echo "... main/img/img_mid_pressed_9797ff_4x26.o"
+	@echo "... main/img/img_mid_pressed_9797ff_4x26.i"
+	@echo "... main/img/img_mid_pressed_9797ff_4x26.s"
 	@echo "... main/img/img_mid_pressed_bbbbbb_4x26.o"
 	@echo "... main/img/img_mid_pressed_bbbbbb_4x26.i"
 	@echo "... main/img/img_mid_pressed_bbbbbb_4x26.s"
@@ -4652,6 +4928,9 @@ help:
 	@echo "... main/img/img_mid_pressed_ff593c_4x40.o"
 	@echo "... main/img/img_mid_pressed_ff593c_4x40.i"
 	@echo "... main/img/img_mid_pressed_ff593c_4x40.s"
+	@echo "... main/img/img_mid_pressed_ff6247_4x26.o"
+	@echo "... main/img/img_mid_pressed_ff6247_4x26.i"
+	@echo "... main/img/img_mid_pressed_ff6247_4x26.s"
 	@echo "... main/img/img_mid_pressed_ffef4b_4x26.o"
 	@echo "... main/img/img_mid_pressed_ffef4b_4x26.i"
 	@echo "... main/img/img_mid_pressed_ffef4b_4x26.s"
@@ -4676,6 +4955,9 @@ help:
 	@echo "... main/img/img_mid_released_f7e100_4x26.o"
 	@echo "... main/img/img_mid_released_f7e100_4x26.i"
 	@echo "... main/img/img_mid_released_f7e100_4x26.s"
+	@echo "... main/img/img_mid_released_ff2600_4x26.o"
+	@echo "... main/img/img_mid_released_ff2600_4x26.i"
+	@echo "... main/img/img_mid_released_ff2600_4x26.s"
 	@echo "... main/img/img_mid_released_ff2600_4x40.o"
 	@echo "... main/img/img_mid_released_ff2600_4x40.i"
 	@echo "... main/img/img_mid_released_ff2600_4x40.s"
@@ -4688,6 +4970,9 @@ help:
 	@echo "... main/img/img_right_pressed_8f7ff0_16x40.o"
 	@echo "... main/img/img_right_pressed_8f7ff0_16x40.i"
 	@echo "... main/img/img_right_pressed_8f7ff0_16x40.s"
+	@echo "... main/img/img_right_pressed_9797ff_14x26.o"
+	@echo "... main/img/img_right_pressed_9797ff_14x26.i"
+	@echo "... main/img/img_right_pressed_9797ff_14x26.s"
 	@echo "... main/img/img_right_pressed_bbbbbb_14x26.o"
 	@echo "... main/img/img_right_pressed_bbbbbb_14x26.i"
 	@echo "... main/img/img_right_pressed_bbbbbb_14x26.s"
@@ -4697,6 +4982,9 @@ help:
 	@echo "... main/img/img_right_pressed_ff593c_16x40.o"
 	@echo "... main/img/img_right_pressed_ff593c_16x40.i"
 	@echo "... main/img/img_right_pressed_ff593c_16x40.s"
+	@echo "... main/img/img_right_pressed_ff6247_14x26.o"
+	@echo "... main/img/img_right_pressed_ff6247_14x26.i"
+	@echo "... main/img/img_right_pressed_ff6247_14x26.s"
 	@echo "... main/img/img_right_pressed_ffef4b_14x26.o"
 	@echo "... main/img/img_right_pressed_ffef4b_14x26.i"
 	@echo "... main/img/img_right_pressed_ffef4b_14x26.s"
@@ -4721,6 +5009,9 @@ help:
 	@echo "... main/img/img_right_released_f7e100_14x26.o"
 	@echo "... main/img/img_right_released_f7e100_14x26.i"
 	@echo "... main/img/img_right_released_f7e100_14x26.s"
+	@echo "... main/img/img_right_released_ff2600_14x26.o"
+	@echo "... main/img/img_right_released_ff2600_14x26.i"
+	@echo "... main/img/img_right_released_ff2600_14x26.s"
 	@echo "... main/img/img_right_released_ff2600_16x40.o"
 	@echo "... main/img/img_right_released_ff2600_16x40.i"
 	@echo "... main/img/img_right_released_ff2600_16x40.s"
@@ -4802,6 +5093,9 @@ help:
 	@echo "... main/src/settings/settings_main/settings_main.o"
 	@echo "... main/src/settings/settings_main/settings_main.i"
 	@echo "... main/src/settings/settings_main/settings_main.s"
+	@echo "... main/src/settings/settings_power_off/settings_power_off.o"
+	@echo "... main/src/settings/settings_power_off/settings_power_off.i"
+	@echo "... main/src/settings/settings_power_off/settings_power_off.s"
 	@echo "... main/src/settings/settings_security/settings_change_pin.o"
 	@echo "... main/src/settings/settings_security/settings_change_pin.i"
 	@echo "... main/src/settings/settings_security/settings_change_pin.s"
@@ -4856,6 +5150,9 @@ help:
 	@echo "... main/src/startup/startup_screen/startup_screen.o"
 	@echo "... main/src/startup/startup_screen/startup_screen.i"
 	@echo "... main/src/startup/startup_screen/startup_screen.s"
+	@echo "... main/src/startup/startup_verification/startup_incorrect_word.o"
+	@echo "... main/src/startup/startup_verification/startup_incorrect_word.i"
+	@echo "... main/src/startup/startup_verification/startup_incorrect_word.s"
 	@echo "... main/src/startup/startup_verification/startup_verification.o"
 	@echo "... main/src/startup/startup_verification/startup_verification.i"
 	@echo "... main/src/startup/startup_verification/startup_verification.s"

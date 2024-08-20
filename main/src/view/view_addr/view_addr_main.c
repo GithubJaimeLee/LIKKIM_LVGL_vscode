@@ -4,6 +4,7 @@
 
 #include "view_addr_main.h"
 #include "gui_comm.h"
+#include "gui_data_comm.h"
 
 extern void view_addr_qrcode_start(void);
 
@@ -74,7 +75,7 @@ static void view_text(lv_obj_t* parent)
 	    lv_label_set_long_mode(label_addr, LV_LABEL_LONG_WRAP);
 	    lv_obj_set_width(label_addr, 168);
 	    lv_obj_set_pos(label_addr, 30, 10);
-	    lv_label_set_text(label_addr, "AddressAddressAddressAddressAddressAddressAddressAddressAddressAddressAddressAddressAddress");
+	    lv_label_set_text(label_addr, gui_data_get_address_info());
 		lv_obj_update_layout(label_addr);
 		
 	    lv_obj_set_size(bg_obj_addr, 200, lv_obj_get_height(label_addr) + 20);
@@ -86,11 +87,11 @@ static void view_text(lv_obj_t* parent)
 	    
 	    lv_obj_t* label_path = lv_label_create(bg_obj);
 	    lv_obj_set_style_text_color(label_path, lv_color_hex(0xffffff), 0);
-	    lv_obj_set_style_text_font(label_path, &lv_font_montserrat_20, 0);
+	    lv_obj_set_style_text_font(label_path, &lv_font_montserrat_12, 0);
 	    lv_label_set_long_mode(label_path, LV_LABEL_LONG_WRAP);
 	    lv_obj_set_width(label_path, 168);
 	    lv_obj_align_to(label_path, bg_obj_addr, LV_ALIGN_OUT_BOTTOM_MID, 0, 17);
-	    lv_label_set_text(label_path, "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee");
+	    lv_label_set_text(label_path, gui_data_get_address_path());
 		lv_obj_update_layout(label_path);
 
 	    lv_obj_set_size(bg_obj_path, 200, lv_obj_get_height(label_path) + 20);
@@ -134,14 +135,14 @@ static void view_addr_main_bg_cont(lv_obj_t* parent)
     lv_label_set_long_mode(title, LV_LABEL_LONG_WRAP);
     lv_obj_set_width(title, 200);
     lv_obj_set_pos(title, 20, 30);
-    lv_label_set_text(title, "Address");
+    lv_label_set_text(title, gui_data_get_address_title());
 
 	view_qrcode(parent);
     view_text(parent);
 
     lv_obj_t* img_btn_confirm = lv_imagebutton_create(parent);
     lv_imagebutton_set_src(img_btn_confirm, LV_IMAGEBUTTON_STATE_RELEASED, &img_left_released_6c6cf4_14x26, &img_mid_released_6c6cf4_4x26, &img_right_released_6c6cf4_14x26);
-    lv_imagebutton_set_src(img_btn_confirm, LV_IMAGEBUTTON_STATE_PRESSED, &img_left_released_6c6cf4_14x26, &img_mid_released_6c6cf4_4x26, &img_right_released_6c6cf4_14x26);
+    lv_imagebutton_set_src(img_btn_confirm, LV_IMAGEBUTTON_STATE_PRESSED, &img_left_pressed_9797ff_14x26, &img_mid_pressed_9797ff_4x26, &img_right_pressed_9797ff_14x26);
     lv_obj_set_width(img_btn_confirm, 200);
     lv_obj_set_pos(img_btn_confirm, 20, 246);
     lv_obj_add_event_cb(img_btn_confirm, done_cb, LV_EVENT_SHORT_CLICKED, NULL);

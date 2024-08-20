@@ -279,10 +279,24 @@ CMakeFiles/main.dir/main/src/settings/settings_main/settings_main.c.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/main/src/settings/settings_main/settings_main.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/settings/settings_main/settings_main.c -o CMakeFiles/main.dir/main/src/settings/settings_main/settings_main.c.s
 
+CMakeFiles/main.dir/main/src/settings/settings_power_off/settings_power_off.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/main/src/settings/settings_power_off/settings_power_off.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/settings/settings_power_off/settings_power_off.c
+CMakeFiles/main.dir/main/src/settings/settings_power_off/settings_power_off.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/main.dir/main/src/settings/settings_power_off/settings_power_off.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/settings/settings_power_off/settings_power_off.c.o -MF CMakeFiles/main.dir/main/src/settings/settings_power_off/settings_power_off.c.o.d -o CMakeFiles/main.dir/main/src/settings/settings_power_off/settings_power_off.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/settings/settings_power_off/settings_power_off.c
+
+CMakeFiles/main.dir/main/src/settings/settings_power_off/settings_power_off.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/main/src/settings/settings_power_off/settings_power_off.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/settings/settings_power_off/settings_power_off.c > CMakeFiles/main.dir/main/src/settings/settings_power_off/settings_power_off.c.i
+
+CMakeFiles/main.dir/main/src/settings/settings_power_off/settings_power_off.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/main/src/settings/settings_power_off/settings_power_off.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/settings/settings_power_off/settings_power_off.c -o CMakeFiles/main.dir/main/src/settings/settings_power_off/settings_power_off.c.s
+
 CMakeFiles/main.dir/main/src/settings/settings_about/settings_about.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/settings/settings_about/settings_about.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/settings/settings_about/settings_about.c
 CMakeFiles/main.dir/main/src/settings/settings_about/settings_about.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/main.dir/main/src/settings/settings_about/settings_about.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/main.dir/main/src/settings/settings_about/settings_about.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/settings/settings_about/settings_about.c.o -MF CMakeFiles/main.dir/main/src/settings/settings_about/settings_about.c.o.d -o CMakeFiles/main.dir/main/src/settings/settings_about/settings_about.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/settings/settings_about/settings_about.c
 
 CMakeFiles/main.dir/main/src/settings/settings_about/settings_about.c.i: cmake_force
@@ -296,7 +310,7 @@ CMakeFiles/main.dir/main/src/settings/settings_about/settings_about.c.s: cmake_f
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_security.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_security.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/settings/settings_security/settings_security.c
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_security.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/main.dir/main/src/settings/settings_security/settings_security.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/main.dir/main/src/settings/settings_security/settings_security.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/settings/settings_security/settings_security.c.o -MF CMakeFiles/main.dir/main/src/settings/settings_security/settings_security.c.o.d -o CMakeFiles/main.dir/main/src/settings/settings_security/settings_security.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/settings/settings_security/settings_security.c
 
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_security.c.i: cmake_force
@@ -310,7 +324,7 @@ CMakeFiles/main.dir/main/src/settings/settings_security/settings_security.c.s: c
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_reset.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_reset.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/settings/settings_security/settings_reset.c
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_reset.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/main.dir/main/src/settings/settings_security/settings_reset.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/main.dir/main/src/settings/settings_security/settings_reset.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/settings/settings_security/settings_reset.c.o -MF CMakeFiles/main.dir/main/src/settings/settings_security/settings_reset.c.o.d -o CMakeFiles/main.dir/main/src/settings/settings_security/settings_reset.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/settings/settings_security/settings_reset.c
 
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_reset.c.i: cmake_force
@@ -324,7 +338,7 @@ CMakeFiles/main.dir/main/src/settings/settings_security/settings_reset.c.s: cmak
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_erase.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_erase.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/settings/settings_security/settings_erase.c
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_erase.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/main.dir/main/src/settings/settings_security/settings_erase.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/main.dir/main/src/settings/settings_security/settings_erase.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/settings/settings_security/settings_erase.c.o -MF CMakeFiles/main.dir/main/src/settings/settings_security/settings_erase.c.o.d -o CMakeFiles/main.dir/main/src/settings/settings_security/settings_erase.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/settings/settings_security/settings_erase.c
 
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_erase.c.i: cmake_force
@@ -338,7 +352,7 @@ CMakeFiles/main.dir/main/src/settings/settings_security/settings_erase.c.s: cmak
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_complete.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_complete.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/settings/settings_security/settings_complete.c
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_complete.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/main.dir/main/src/settings/settings_security/settings_complete.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/main.dir/main/src/settings/settings_security/settings_complete.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/settings/settings_security/settings_complete.c.o -MF CMakeFiles/main.dir/main/src/settings/settings_security/settings_complete.c.o.d -o CMakeFiles/main.dir/main/src/settings/settings_security/settings_complete.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/settings/settings_security/settings_complete.c
 
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_complete.c.i: cmake_force
@@ -352,7 +366,7 @@ CMakeFiles/main.dir/main/src/settings/settings_security/settings_complete.c.s: c
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_pin_changed.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_pin_changed.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/settings/settings_security/settings_pin_changed.c
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_pin_changed.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/main.dir/main/src/settings/settings_security/settings_pin_changed.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/main.dir/main/src/settings/settings_security/settings_pin_changed.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/settings/settings_security/settings_pin_changed.c.o -MF CMakeFiles/main.dir/main/src/settings/settings_security/settings_pin_changed.c.o.d -o CMakeFiles/main.dir/main/src/settings/settings_security/settings_pin_changed.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/settings/settings_security/settings_pin_changed.c
 
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_pin_changed.c.i: cmake_force
@@ -366,7 +380,7 @@ CMakeFiles/main.dir/main/src/settings/settings_security/settings_pin_changed.c.s
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_change_pin.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_change_pin.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/settings/settings_security/settings_change_pin.c
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_change_pin.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/main.dir/main/src/settings/settings_security/settings_change_pin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/main.dir/main/src/settings/settings_security/settings_change_pin.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/settings/settings_security/settings_change_pin.c.o -MF CMakeFiles/main.dir/main/src/settings/settings_security/settings_change_pin.c.o.d -o CMakeFiles/main.dir/main/src/settings/settings_security/settings_change_pin.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/settings/settings_security/settings_change_pin.c
 
 CMakeFiles/main.dir/main/src/settings/settings_security/settings_change_pin.c.i: cmake_force
@@ -380,7 +394,7 @@ CMakeFiles/main.dir/main/src/settings/settings_security/settings_change_pin.c.s:
 CMakeFiles/main.dir/main/src/startup/startup_done/startup_done.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/startup/startup_done/startup_done.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_done/startup_done.c
 CMakeFiles/main.dir/main/src/startup/startup_done/startup_done.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/main.dir/main/src/startup/startup_done/startup_done.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/main.dir/main/src/startup/startup_done/startup_done.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/startup/startup_done/startup_done.c.o -MF CMakeFiles/main.dir/main/src/startup/startup_done/startup_done.c.o.d -o CMakeFiles/main.dir/main/src/startup/startup_done/startup_done.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_done/startup_done.c
 
 CMakeFiles/main.dir/main/src/startup/startup_done/startup_done.c.i: cmake_force
@@ -394,7 +408,7 @@ CMakeFiles/main.dir/main/src/startup/startup_done/startup_done.c.s: cmake_force
 CMakeFiles/main.dir/main/src/startup/startup_language/startup_language.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/startup/startup_language/startup_language.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_language/startup_language.c
 CMakeFiles/main.dir/main/src/startup/startup_language/startup_language.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/main.dir/main/src/startup/startup_language/startup_language.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/main.dir/main/src/startup/startup_language/startup_language.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/startup/startup_language/startup_language.c.o -MF CMakeFiles/main.dir/main/src/startup/startup_language/startup_language.c.o.d -o CMakeFiles/main.dir/main/src/startup/startup_language/startup_language.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_language/startup_language.c
 
 CMakeFiles/main.dir/main/src/startup/startup_language/startup_language.c.i: cmake_force
@@ -408,7 +422,7 @@ CMakeFiles/main.dir/main/src/startup/startup_language/startup_language.c.s: cmak
 CMakeFiles/main.dir/main/src/startup/startup_pin/startup_set_pin.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/startup/startup_pin/startup_set_pin.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_pin/startup_set_pin.c
 CMakeFiles/main.dir/main/src/startup/startup_pin/startup_set_pin.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/main.dir/main/src/startup/startup_pin/startup_set_pin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/main.dir/main/src/startup/startup_pin/startup_set_pin.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/startup/startup_pin/startup_set_pin.c.o -MF CMakeFiles/main.dir/main/src/startup/startup_pin/startup_set_pin.c.o.d -o CMakeFiles/main.dir/main/src/startup/startup_pin/startup_set_pin.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_pin/startup_set_pin.c
 
 CMakeFiles/main.dir/main/src/startup/startup_pin/startup_set_pin.c.i: cmake_force
@@ -422,7 +436,7 @@ CMakeFiles/main.dir/main/src/startup/startup_pin/startup_set_pin.c.s: cmake_forc
 CMakeFiles/main.dir/main/src/startup/startup_pin/startup_enter_pin.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/startup/startup_pin/startup_enter_pin.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_pin/startup_enter_pin.c
 CMakeFiles/main.dir/main/src/startup/startup_pin/startup_enter_pin.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/main.dir/main/src/startup/startup_pin/startup_enter_pin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/main.dir/main/src/startup/startup_pin/startup_enter_pin.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/startup/startup_pin/startup_enter_pin.c.o -MF CMakeFiles/main.dir/main/src/startup/startup_pin/startup_enter_pin.c.o.d -o CMakeFiles/main.dir/main/src/startup/startup_pin/startup_enter_pin.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_pin/startup_enter_pin.c
 
 CMakeFiles/main.dir/main/src/startup/startup_pin/startup_enter_pin.c.i: cmake_force
@@ -436,7 +450,7 @@ CMakeFiles/main.dir/main/src/startup/startup_pin/startup_enter_pin.c.s: cmake_fo
 CMakeFiles/main.dir/main/src/startup/startup_quick_start/startup_quick_start.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/startup/startup_quick_start/startup_quick_start.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_quick_start/startup_quick_start.c
 CMakeFiles/main.dir/main/src/startup/startup_quick_start/startup_quick_start.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/main.dir/main/src/startup/startup_quick_start/startup_quick_start.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/main.dir/main/src/startup/startup_quick_start/startup_quick_start.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/startup/startup_quick_start/startup_quick_start.c.o -MF CMakeFiles/main.dir/main/src/startup/startup_quick_start/startup_quick_start.c.o.d -o CMakeFiles/main.dir/main/src/startup/startup_quick_start/startup_quick_start.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_quick_start/startup_quick_start.c
 
 CMakeFiles/main.dir/main/src/startup/startup_quick_start/startup_quick_start.c.i: cmake_force
@@ -450,7 +464,7 @@ CMakeFiles/main.dir/main/src/startup/startup_quick_start/startup_quick_start.c.s
 CMakeFiles/main.dir/main/src/startup/startup_ready_check/startup_ready_check.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/startup/startup_ready_check/startup_ready_check.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_ready_check/startup_ready_check.c
 CMakeFiles/main.dir/main/src/startup/startup_ready_check/startup_ready_check.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/main.dir/main/src/startup/startup_ready_check/startup_ready_check.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/main.dir/main/src/startup/startup_ready_check/startup_ready_check.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/startup/startup_ready_check/startup_ready_check.c.o -MF CMakeFiles/main.dir/main/src/startup/startup_ready_check/startup_ready_check.c.o.d -o CMakeFiles/main.dir/main/src/startup/startup_ready_check/startup_ready_check.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_ready_check/startup_ready_check.c
 
 CMakeFiles/main.dir/main/src/startup/startup_ready_check/startup_ready_check.c.i: cmake_force
@@ -464,7 +478,7 @@ CMakeFiles/main.dir/main/src/startup/startup_ready_check/startup_ready_check.c.s
 CMakeFiles/main.dir/main/src/startup/startup_recovery/startup_recovery.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/startup/startup_recovery/startup_recovery.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_recovery/startup_recovery.c
 CMakeFiles/main.dir/main/src/startup/startup_recovery/startup_recovery.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/main.dir/main/src/startup/startup_recovery/startup_recovery.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/main.dir/main/src/startup/startup_recovery/startup_recovery.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/startup/startup_recovery/startup_recovery.c.o -MF CMakeFiles/main.dir/main/src/startup/startup_recovery/startup_recovery.c.o.d -o CMakeFiles/main.dir/main/src/startup/startup_recovery/startup_recovery.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_recovery/startup_recovery.c
 
 CMakeFiles/main.dir/main/src/startup/startup_recovery/startup_recovery.c.i: cmake_force
@@ -478,7 +492,7 @@ CMakeFiles/main.dir/main/src/startup/startup_recovery/startup_recovery.c.s: cmak
 CMakeFiles/main.dir/main/src/startup/startup_screen/startup_screen.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/startup/startup_screen/startup_screen.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_screen/startup_screen.c
 CMakeFiles/main.dir/main/src/startup/startup_screen/startup_screen.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/main.dir/main/src/startup/startup_screen/startup_screen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/main.dir/main/src/startup/startup_screen/startup_screen.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/startup/startup_screen/startup_screen.c.o -MF CMakeFiles/main.dir/main/src/startup/startup_screen/startup_screen.c.o.d -o CMakeFiles/main.dir/main/src/startup/startup_screen/startup_screen.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_screen/startup_screen.c
 
 CMakeFiles/main.dir/main/src/startup/startup_screen/startup_screen.c.i: cmake_force
@@ -492,7 +506,7 @@ CMakeFiles/main.dir/main/src/startup/startup_screen/startup_screen.c.s: cmake_fo
 CMakeFiles/main.dir/main/src/startup/startup_verification/startup_verification.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/startup/startup_verification/startup_verification.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_verification/startup_verification.c
 CMakeFiles/main.dir/main/src/startup/startup_verification/startup_verification.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/main.dir/main/src/startup/startup_verification/startup_verification.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/main.dir/main/src/startup/startup_verification/startup_verification.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/startup/startup_verification/startup_verification.c.o -MF CMakeFiles/main.dir/main/src/startup/startup_verification/startup_verification.c.o.d -o CMakeFiles/main.dir/main/src/startup/startup_verification/startup_verification.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_verification/startup_verification.c
 
 CMakeFiles/main.dir/main/src/startup/startup_verification/startup_verification.c.i: cmake_force
@@ -503,10 +517,24 @@ CMakeFiles/main.dir/main/src/startup/startup_verification/startup_verification.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/main/src/startup/startup_verification/startup_verification.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_verification/startup_verification.c -o CMakeFiles/main.dir/main/src/startup/startup_verification/startup_verification.c.s
 
+CMakeFiles/main.dir/main/src/startup/startup_verification/startup_incorrect_word.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/main/src/startup/startup_verification/startup_incorrect_word.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_verification/startup_incorrect_word.c
+CMakeFiles/main.dir/main/src/startup/startup_verification/startup_incorrect_word.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/main.dir/main/src/startup/startup_verification/startup_incorrect_word.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/startup/startup_verification/startup_incorrect_word.c.o -MF CMakeFiles/main.dir/main/src/startup/startup_verification/startup_incorrect_word.c.o.d -o CMakeFiles/main.dir/main/src/startup/startup_verification/startup_incorrect_word.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_verification/startup_incorrect_word.c
+
+CMakeFiles/main.dir/main/src/startup/startup_verification/startup_incorrect_word.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/main/src/startup/startup_verification/startup_incorrect_word.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_verification/startup_incorrect_word.c > CMakeFiles/main.dir/main/src/startup/startup_verification/startup_incorrect_word.c.i
+
+CMakeFiles/main.dir/main/src/startup/startup_verification/startup_incorrect_word.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/main/src/startup/startup_verification/startup_incorrect_word.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_verification/startup_incorrect_word.c -o CMakeFiles/main.dir/main/src/startup/startup_verification/startup_incorrect_word.c.s
+
 CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_abort.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_abort.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_import/startup_import_abort.c
 CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_abort.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_abort.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_abort.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_abort.c.o -MF CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_abort.c.o.d -o CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_abort.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_import/startup_import_abort.c
 
 CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_abort.c.i: cmake_force
@@ -520,7 +548,7 @@ CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_abort.c.s: cm
 CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_wallet.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_wallet.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_import/startup_import_wallet.c
 CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_wallet.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_wallet.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_wallet.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_wallet.c.o -MF CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_wallet.c.o.d -o CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_wallet.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_import/startup_import_wallet.c
 
 CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_wallet.c.i: cmake_force
@@ -534,7 +562,7 @@ CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_wallet.c.s: c
 CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_word.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_word.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_import/startup_import_word.c
 CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_word.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_word.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_word.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_word.c.o -MF CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_word.c.o.d -o CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_word.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_import/startup_import_word.c
 
 CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_word.c.i: cmake_force
@@ -548,7 +576,7 @@ CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_word.c.s: cma
 CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_ready.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_ready.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_import/startup_import_ready.c
 CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_ready.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_ready.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_ready.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_ready.c.o -MF CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_ready.c.o.d -o CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_ready.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/startup/startup_import/startup_import_ready.c
 
 CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_ready.c.i: cmake_force
@@ -562,7 +590,7 @@ CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_ready.c.s: cm
 CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_main.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_main.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/view/view_transaction/view_transaction_main.c
 CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_main.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_main.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_main.c.o -MF CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_main.c.o.d -o CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_main.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/view/view_transaction/view_transaction_main.c
 
 CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_main.c.i: cmake_force
@@ -576,7 +604,7 @@ CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_main.c.s: cm
 CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_confirm.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_confirm.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/view/view_transaction/view_transaction_confirm.c
 CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_confirm.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_confirm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_confirm.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_confirm.c.o -MF CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_confirm.c.o.d -o CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_confirm.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/view/view_transaction/view_transaction_confirm.c
 
 CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_confirm.c.i: cmake_force
@@ -590,7 +618,7 @@ CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_confirm.c.s:
 CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_waiting.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_waiting.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/view/view_transaction/view_transaction_waiting.c
 CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_waiting.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_waiting.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_waiting.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_waiting.c.o -MF CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_waiting.c.o.d -o CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_waiting.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/view/view_transaction/view_transaction_waiting.c
 
 CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_waiting.c.i: cmake_force
@@ -604,7 +632,7 @@ CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_waiting.c.s:
 CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_success.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_success.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/view/view_transaction/view_transaction_success.c
 CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_success.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_success.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_success.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_success.c.o -MF CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_success.c.o.d -o CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_success.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/view/view_transaction/view_transaction_success.c
 
 CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_success.c.i: cmake_force
@@ -618,7 +646,7 @@ CMakeFiles/main.dir/main/src/view/view_transaction/view_transaction_success.c.s:
 CMakeFiles/main.dir/main/src/view/view_addr/view_addr_main.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/src/view/view_addr/view_addr_main.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/view/view_addr/view_addr_main.c
 CMakeFiles/main.dir/main/src/view/view_addr/view_addr_main.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/main.dir/main/src/view/view_addr/view_addr_main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/main.dir/main/src/view/view_addr/view_addr_main.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/src/view/view_addr/view_addr_main.c.o -MF CMakeFiles/main.dir/main/src/view/view_addr/view_addr_main.c.o.d -o CMakeFiles/main.dir/main/src/view/view_addr/view_addr_main.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/src/view/view_addr/view_addr_main.c
 
 CMakeFiles/main.dir/main/src/view/view_addr/view_addr_main.c.i: cmake_force
@@ -632,7 +660,7 @@ CMakeFiles/main.dir/main/src/view/view_addr/view_addr_main.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_backgroud.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_backgroud.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_backgroud.c
 CMakeFiles/main.dir/main/img/img_backgroud.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/main.dir/main/img/img_backgroud.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/main.dir/main/img/img_backgroud.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_backgroud.c.o -MF CMakeFiles/main.dir/main/img/img_backgroud.c.o.d -o CMakeFiles/main.dir/main/img/img_backgroud.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_backgroud.c
 
 CMakeFiles/main.dir/main/img/img_backgroud.c.i: cmake_force
@@ -646,7 +674,7 @@ CMakeFiles/main.dir/main/img/img_backgroud.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_imgbtn_cancle_15x15.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_imgbtn_cancle_15x15.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_imgbtn_cancle_15x15.c
 CMakeFiles/main.dir/main/img/img_imgbtn_cancle_15x15.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/main.dir/main/img/img_imgbtn_cancle_15x15.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/main.dir/main/img/img_imgbtn_cancle_15x15.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_imgbtn_cancle_15x15.c.o -MF CMakeFiles/main.dir/main/img/img_imgbtn_cancle_15x15.c.o.d -o CMakeFiles/main.dir/main/img/img_imgbtn_cancle_15x15.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_imgbtn_cancle_15x15.c
 
 CMakeFiles/main.dir/main/img/img_imgbtn_cancle_15x15.c.i: cmake_force
@@ -660,7 +688,7 @@ CMakeFiles/main.dir/main/img/img_imgbtn_cancle_15x15.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_imgbtn_ok_12x9.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_imgbtn_ok_12x9.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_imgbtn_ok_12x9.c
 CMakeFiles/main.dir/main/img/img_imgbtn_ok_12x9.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/main.dir/main/img/img_imgbtn_ok_12x9.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/main.dir/main/img/img_imgbtn_ok_12x9.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_imgbtn_ok_12x9.c.o -MF CMakeFiles/main.dir/main/img/img_imgbtn_ok_12x9.c.o.d -o CMakeFiles/main.dir/main/img/img_imgbtn_ok_12x9.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_imgbtn_ok_12x9.c
 
 CMakeFiles/main.dir/main/img/img_imgbtn_ok_12x9.c.i: cmake_force
@@ -674,7 +702,7 @@ CMakeFiles/main.dir/main/img/img_imgbtn_ok_12x9.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_left_pressed_8f7ff0_16x40.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_left_pressed_8f7ff0_16x40.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_8f7ff0_16x40.c
 CMakeFiles/main.dir/main/img/img_left_pressed_8f7ff0_16x40.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/main.dir/main/img/img_left_pressed_8f7ff0_16x40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/main.dir/main/img/img_left_pressed_8f7ff0_16x40.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_left_pressed_8f7ff0_16x40.c.o -MF CMakeFiles/main.dir/main/img/img_left_pressed_8f7ff0_16x40.c.o.d -o CMakeFiles/main.dir/main/img/img_left_pressed_8f7ff0_16x40.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_8f7ff0_16x40.c
 
 CMakeFiles/main.dir/main/img/img_left_pressed_8f7ff0_16x40.c.i: cmake_force
@@ -688,7 +716,7 @@ CMakeFiles/main.dir/main/img/img_left_pressed_8f7ff0_16x40.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_left_pressed_bbbbbb_14x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_left_pressed_bbbbbb_14x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_bbbbbb_14x26.c
 CMakeFiles/main.dir/main/img/img_left_pressed_bbbbbb_14x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/main.dir/main/img/img_left_pressed_bbbbbb_14x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/main.dir/main/img/img_left_pressed_bbbbbb_14x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_left_pressed_bbbbbb_14x26.c.o -MF CMakeFiles/main.dir/main/img/img_left_pressed_bbbbbb_14x26.c.o.d -o CMakeFiles/main.dir/main/img/img_left_pressed_bbbbbb_14x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_bbbbbb_14x26.c
 
 CMakeFiles/main.dir/main/img/img_left_pressed_bbbbbb_14x26.c.i: cmake_force
@@ -702,7 +730,7 @@ CMakeFiles/main.dir/main/img/img_left_pressed_bbbbbb_14x26.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_left_pressed_bbbbbb_16x40.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_left_pressed_bbbbbb_16x40.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_bbbbbb_16x40.c
 CMakeFiles/main.dir/main/img/img_left_pressed_bbbbbb_16x40.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/main.dir/main/img/img_left_pressed_bbbbbb_16x40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/main.dir/main/img/img_left_pressed_bbbbbb_16x40.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_left_pressed_bbbbbb_16x40.c.o -MF CMakeFiles/main.dir/main/img/img_left_pressed_bbbbbb_16x40.c.o.d -o CMakeFiles/main.dir/main/img/img_left_pressed_bbbbbb_16x40.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_bbbbbb_16x40.c
 
 CMakeFiles/main.dir/main/img/img_left_pressed_bbbbbb_16x40.c.i: cmake_force
@@ -716,7 +744,7 @@ CMakeFiles/main.dir/main/img/img_left_pressed_bbbbbb_16x40.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_left_pressed_ff593c_16x40.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_left_pressed_ff593c_16x40.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_ff593c_16x40.c
 CMakeFiles/main.dir/main/img/img_left_pressed_ff593c_16x40.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/main.dir/main/img/img_left_pressed_ff593c_16x40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/main.dir/main/img/img_left_pressed_ff593c_16x40.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_left_pressed_ff593c_16x40.c.o -MF CMakeFiles/main.dir/main/img/img_left_pressed_ff593c_16x40.c.o.d -o CMakeFiles/main.dir/main/img/img_left_pressed_ff593c_16x40.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_ff593c_16x40.c
 
 CMakeFiles/main.dir/main/img/img_left_pressed_ff593c_16x40.c.i: cmake_force
@@ -730,7 +758,7 @@ CMakeFiles/main.dir/main/img/img_left_pressed_ff593c_16x40.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_14x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_14x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_released_6c6cf4_14x26.c
 CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_14x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_14x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_14x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_14x26.c.o -MF CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_14x26.c.o.d -o CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_14x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_released_6c6cf4_14x26.c
 
 CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_14x26.c.i: cmake_force
@@ -744,7 +772,7 @@ CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_14x26.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_16x40.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_16x40.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_released_6c6cf4_16x40.c
 CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_16x40.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_16x40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_16x40.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_16x40.c.o -MF CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_16x40.c.o.d -o CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_16x40.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_released_6c6cf4_16x40.c
 
 CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_16x40.c.i: cmake_force
@@ -758,7 +786,7 @@ CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_16x40.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_16x80.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_16x80.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_released_6c6cf4_16x80.c
 CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_16x80.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_16x80.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_16x80.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_16x80.c.o -MF CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_16x80.c.o.d -o CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_16x80.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_released_6c6cf4_16x80.c
 
 CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_16x80.c.i: cmake_force
@@ -772,7 +800,7 @@ CMakeFiles/main.dir/main/img/img_left_released_6c6cf4_16x80.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_left_released_888888_14x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_left_released_888888_14x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_released_888888_14x26.c
 CMakeFiles/main.dir/main/img/img_left_released_888888_14x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/main.dir/main/img/img_left_released_888888_14x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/main.dir/main/img/img_left_released_888888_14x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_left_released_888888_14x26.c.o -MF CMakeFiles/main.dir/main/img/img_left_released_888888_14x26.c.o.d -o CMakeFiles/main.dir/main/img/img_left_released_888888_14x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_released_888888_14x26.c
 
 CMakeFiles/main.dir/main/img/img_left_released_888888_14x26.c.i: cmake_force
@@ -786,7 +814,7 @@ CMakeFiles/main.dir/main/img/img_left_released_888888_14x26.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_left_released_888888_16x40.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_left_released_888888_16x40.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_released_888888_16x40.c
 CMakeFiles/main.dir/main/img/img_left_released_888888_16x40.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/main.dir/main/img/img_left_released_888888_16x40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/main.dir/main/img/img_left_released_888888_16x40.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_left_released_888888_16x40.c.o -MF CMakeFiles/main.dir/main/img/img_left_released_888888_16x40.c.o.d -o CMakeFiles/main.dir/main/img/img_left_released_888888_16x40.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_released_888888_16x40.c
 
 CMakeFiles/main.dir/main/img/img_left_released_888888_16x40.c.i: cmake_force
@@ -800,7 +828,7 @@ CMakeFiles/main.dir/main/img/img_left_released_888888_16x40.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_left_released_ff2600_16x40.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_left_released_ff2600_16x40.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_released_ff2600_16x40.c
 CMakeFiles/main.dir/main/img/img_left_released_ff2600_16x40.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/main.dir/main/img/img_left_released_ff2600_16x40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/main.dir/main/img/img_left_released_ff2600_16x40.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_left_released_ff2600_16x40.c.o -MF CMakeFiles/main.dir/main/img/img_left_released_ff2600_16x40.c.o.d -o CMakeFiles/main.dir/main/img/img_left_released_ff2600_16x40.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_released_ff2600_16x40.c
 
 CMakeFiles/main.dir/main/img/img_left_released_ff2600_16x40.c.i: cmake_force
@@ -814,7 +842,7 @@ CMakeFiles/main.dir/main/img/img_left_released_ff2600_16x40.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_menu_connect.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_menu_connect.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_menu_connect.c
 CMakeFiles/main.dir/main/img/img_menu_connect.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/main.dir/main/img/img_menu_connect.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/main.dir/main/img/img_menu_connect.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_menu_connect.c.o -MF CMakeFiles/main.dir/main/img/img_menu_connect.c.o.d -o CMakeFiles/main.dir/main/img/img_menu_connect.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_menu_connect.c
 
 CMakeFiles/main.dir/main/img/img_menu_connect.c.i: cmake_force
@@ -828,7 +856,7 @@ CMakeFiles/main.dir/main/img/img_menu_connect.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_menu_general.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_menu_general.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_menu_general.c
 CMakeFiles/main.dir/main/img/img_menu_general.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/main.dir/main/img/img_menu_general.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/main.dir/main/img/img_menu_general.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_menu_general.c.o -MF CMakeFiles/main.dir/main/img/img_menu_general.c.o.d -o CMakeFiles/main.dir/main/img/img_menu_general.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_menu_general.c
 
 CMakeFiles/main.dir/main/img/img_menu_general.c.i: cmake_force
@@ -842,7 +870,7 @@ CMakeFiles/main.dir/main/img/img_menu_general.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_menu_guide.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_menu_guide.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_menu_guide.c
 CMakeFiles/main.dir/main/img/img_menu_guide.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/main.dir/main/img/img_menu_guide.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/main.dir/main/img/img_menu_guide.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_menu_guide.c.o -MF CMakeFiles/main.dir/main/img/img_menu_guide.c.o.d -o CMakeFiles/main.dir/main/img/img_menu_guide.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_menu_guide.c
 
 CMakeFiles/main.dir/main/img/img_menu_guide.c.i: cmake_force
@@ -856,7 +884,7 @@ CMakeFiles/main.dir/main/img/img_menu_guide.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_menu_settings.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_menu_settings.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_menu_settings.c
 CMakeFiles/main.dir/main/img/img_menu_settings.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/main.dir/main/img/img_menu_settings.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/main.dir/main/img/img_menu_settings.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_menu_settings.c.o -MF CMakeFiles/main.dir/main/img/img_menu_settings.c.o.d -o CMakeFiles/main.dir/main/img/img_menu_settings.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_menu_settings.c
 
 CMakeFiles/main.dir/main/img/img_menu_settings.c.i: cmake_force
@@ -870,7 +898,7 @@ CMakeFiles/main.dir/main/img/img_menu_settings.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_mid_pressed_8f7ff0_4x40.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_mid_pressed_8f7ff0_4x40.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_pressed_8f7ff0_4x40.c
 CMakeFiles/main.dir/main/img/img_mid_pressed_8f7ff0_4x40.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/main.dir/main/img/img_mid_pressed_8f7ff0_4x40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/main.dir/main/img/img_mid_pressed_8f7ff0_4x40.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_mid_pressed_8f7ff0_4x40.c.o -MF CMakeFiles/main.dir/main/img/img_mid_pressed_8f7ff0_4x40.c.o.d -o CMakeFiles/main.dir/main/img/img_mid_pressed_8f7ff0_4x40.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_pressed_8f7ff0_4x40.c
 
 CMakeFiles/main.dir/main/img/img_mid_pressed_8f7ff0_4x40.c.i: cmake_force
@@ -884,7 +912,7 @@ CMakeFiles/main.dir/main/img/img_mid_pressed_8f7ff0_4x40.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_mid_pressed_bbbbbb_4x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_mid_pressed_bbbbbb_4x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_pressed_bbbbbb_4x26.c
 CMakeFiles/main.dir/main/img/img_mid_pressed_bbbbbb_4x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/main.dir/main/img/img_mid_pressed_bbbbbb_4x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/main.dir/main/img/img_mid_pressed_bbbbbb_4x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_mid_pressed_bbbbbb_4x26.c.o -MF CMakeFiles/main.dir/main/img/img_mid_pressed_bbbbbb_4x26.c.o.d -o CMakeFiles/main.dir/main/img/img_mid_pressed_bbbbbb_4x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_pressed_bbbbbb_4x26.c
 
 CMakeFiles/main.dir/main/img/img_mid_pressed_bbbbbb_4x26.c.i: cmake_force
@@ -898,7 +926,7 @@ CMakeFiles/main.dir/main/img/img_mid_pressed_bbbbbb_4x26.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_mid_pressed_bbbbbb_4x40.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_mid_pressed_bbbbbb_4x40.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_pressed_bbbbbb_4x40.c
 CMakeFiles/main.dir/main/img/img_mid_pressed_bbbbbb_4x40.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/main.dir/main/img/img_mid_pressed_bbbbbb_4x40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/main.dir/main/img/img_mid_pressed_bbbbbb_4x40.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_mid_pressed_bbbbbb_4x40.c.o -MF CMakeFiles/main.dir/main/img/img_mid_pressed_bbbbbb_4x40.c.o.d -o CMakeFiles/main.dir/main/img/img_mid_pressed_bbbbbb_4x40.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_pressed_bbbbbb_4x40.c
 
 CMakeFiles/main.dir/main/img/img_mid_pressed_bbbbbb_4x40.c.i: cmake_force
@@ -912,7 +940,7 @@ CMakeFiles/main.dir/main/img/img_mid_pressed_bbbbbb_4x40.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_mid_pressed_ff593c_4x40.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_mid_pressed_ff593c_4x40.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_pressed_ff593c_4x40.c
 CMakeFiles/main.dir/main/img/img_mid_pressed_ff593c_4x40.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/main.dir/main/img/img_mid_pressed_ff593c_4x40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/main.dir/main/img/img_mid_pressed_ff593c_4x40.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_mid_pressed_ff593c_4x40.c.o -MF CMakeFiles/main.dir/main/img/img_mid_pressed_ff593c_4x40.c.o.d -o CMakeFiles/main.dir/main/img/img_mid_pressed_ff593c_4x40.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_pressed_ff593c_4x40.c
 
 CMakeFiles/main.dir/main/img/img_mid_pressed_ff593c_4x40.c.i: cmake_force
@@ -926,7 +954,7 @@ CMakeFiles/main.dir/main/img/img_mid_pressed_ff593c_4x40.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_4x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_4x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_released_6c6cf4_4x26.c
 CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_4x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_4x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_4x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_4x26.c.o -MF CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_4x26.c.o.d -o CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_4x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_released_6c6cf4_4x26.c
 
 CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_4x26.c.i: cmake_force
@@ -940,7 +968,7 @@ CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_4x26.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_4x40.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_4x40.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_released_6c6cf4_4x40.c
 CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_4x40.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_4x40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_4x40.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_4x40.c.o -MF CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_4x40.c.o.d -o CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_4x40.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_released_6c6cf4_4x40.c
 
 CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_4x40.c.i: cmake_force
@@ -954,7 +982,7 @@ CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_4x40.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_16x80.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_16x80.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_released_6c6cf4_16x80.c
 CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_16x80.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_16x80.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_16x80.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_16x80.c.o -MF CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_16x80.c.o.d -o CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_16x80.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_released_6c6cf4_16x80.c
 
 CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_16x80.c.i: cmake_force
@@ -968,7 +996,7 @@ CMakeFiles/main.dir/main/img/img_mid_released_6c6cf4_16x80.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_mid_released_888888_4x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_mid_released_888888_4x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_released_888888_4x26.c
 CMakeFiles/main.dir/main/img/img_mid_released_888888_4x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/main.dir/main/img/img_mid_released_888888_4x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/main.dir/main/img/img_mid_released_888888_4x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_mid_released_888888_4x26.c.o -MF CMakeFiles/main.dir/main/img/img_mid_released_888888_4x26.c.o.d -o CMakeFiles/main.dir/main/img/img_mid_released_888888_4x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_released_888888_4x26.c
 
 CMakeFiles/main.dir/main/img/img_mid_released_888888_4x26.c.i: cmake_force
@@ -982,7 +1010,7 @@ CMakeFiles/main.dir/main/img/img_mid_released_888888_4x26.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_mid_released_888888_4x40.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_mid_released_888888_4x40.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_released_888888_4x40.c
 CMakeFiles/main.dir/main/img/img_mid_released_888888_4x40.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/main.dir/main/img/img_mid_released_888888_4x40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/main.dir/main/img/img_mid_released_888888_4x40.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_mid_released_888888_4x40.c.o -MF CMakeFiles/main.dir/main/img/img_mid_released_888888_4x40.c.o.d -o CMakeFiles/main.dir/main/img/img_mid_released_888888_4x40.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_released_888888_4x40.c
 
 CMakeFiles/main.dir/main/img/img_mid_released_888888_4x40.c.i: cmake_force
@@ -996,7 +1024,7 @@ CMakeFiles/main.dir/main/img/img_mid_released_888888_4x40.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x40.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x40.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_released_ff2600_4x40.c
 CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x40.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x40.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x40.c.o -MF CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x40.c.o.d -o CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x40.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_released_ff2600_4x40.c
 
 CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x40.c.i: cmake_force
@@ -1010,7 +1038,7 @@ CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x40.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_right_pressed_8f7ff0_16x40.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_right_pressed_8f7ff0_16x40.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_pressed_8f7ff0_16x40.c
 CMakeFiles/main.dir/main/img/img_right_pressed_8f7ff0_16x40.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/main.dir/main/img/img_right_pressed_8f7ff0_16x40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/main.dir/main/img/img_right_pressed_8f7ff0_16x40.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_right_pressed_8f7ff0_16x40.c.o -MF CMakeFiles/main.dir/main/img/img_right_pressed_8f7ff0_16x40.c.o.d -o CMakeFiles/main.dir/main/img/img_right_pressed_8f7ff0_16x40.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_pressed_8f7ff0_16x40.c
 
 CMakeFiles/main.dir/main/img/img_right_pressed_8f7ff0_16x40.c.i: cmake_force
@@ -1024,7 +1052,7 @@ CMakeFiles/main.dir/main/img/img_right_pressed_8f7ff0_16x40.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_right_pressed_bbbbbb_14x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_right_pressed_bbbbbb_14x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_pressed_bbbbbb_14x26.c
 CMakeFiles/main.dir/main/img/img_right_pressed_bbbbbb_14x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/main.dir/main/img/img_right_pressed_bbbbbb_14x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/main.dir/main/img/img_right_pressed_bbbbbb_14x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_right_pressed_bbbbbb_14x26.c.o -MF CMakeFiles/main.dir/main/img/img_right_pressed_bbbbbb_14x26.c.o.d -o CMakeFiles/main.dir/main/img/img_right_pressed_bbbbbb_14x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_pressed_bbbbbb_14x26.c
 
 CMakeFiles/main.dir/main/img/img_right_pressed_bbbbbb_14x26.c.i: cmake_force
@@ -1038,7 +1066,7 @@ CMakeFiles/main.dir/main/img/img_right_pressed_bbbbbb_14x26.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_right_pressed_bbbbbb_16x40.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_right_pressed_bbbbbb_16x40.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_pressed_bbbbbb_16x40.c
 CMakeFiles/main.dir/main/img/img_right_pressed_bbbbbb_16x40.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/main.dir/main/img/img_right_pressed_bbbbbb_16x40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/main.dir/main/img/img_right_pressed_bbbbbb_16x40.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_right_pressed_bbbbbb_16x40.c.o -MF CMakeFiles/main.dir/main/img/img_right_pressed_bbbbbb_16x40.c.o.d -o CMakeFiles/main.dir/main/img/img_right_pressed_bbbbbb_16x40.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_pressed_bbbbbb_16x40.c
 
 CMakeFiles/main.dir/main/img/img_right_pressed_bbbbbb_16x40.c.i: cmake_force
@@ -1052,7 +1080,7 @@ CMakeFiles/main.dir/main/img/img_right_pressed_bbbbbb_16x40.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_right_pressed_ff593c_16x40.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_right_pressed_ff593c_16x40.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_pressed_ff593c_16x40.c
 CMakeFiles/main.dir/main/img/img_right_pressed_ff593c_16x40.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/main.dir/main/img/img_right_pressed_ff593c_16x40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/main.dir/main/img/img_right_pressed_ff593c_16x40.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_right_pressed_ff593c_16x40.c.o -MF CMakeFiles/main.dir/main/img/img_right_pressed_ff593c_16x40.c.o.d -o CMakeFiles/main.dir/main/img/img_right_pressed_ff593c_16x40.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_pressed_ff593c_16x40.c
 
 CMakeFiles/main.dir/main/img/img_right_pressed_ff593c_16x40.c.i: cmake_force
@@ -1066,7 +1094,7 @@ CMakeFiles/main.dir/main/img/img_right_pressed_ff593c_16x40.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_14x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_14x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_6c6cf4_14x26.c
 CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_14x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_14x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_14x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_14x26.c.o -MF CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_14x26.c.o.d -o CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_14x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_6c6cf4_14x26.c
 
 CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_14x26.c.i: cmake_force
@@ -1080,7 +1108,7 @@ CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_14x26.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_16x40.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_16x40.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_6c6cf4_16x40.c
 CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_16x40.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_16x40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_16x40.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_16x40.c.o -MF CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_16x40.c.o.d -o CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_16x40.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_6c6cf4_16x40.c
 
 CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_16x40.c.i: cmake_force
@@ -1094,7 +1122,7 @@ CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_16x40.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_16x80.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_16x80.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_6c6cf4_16x80.c
 CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_16x80.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_16x80.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_16x80.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_16x80.c.o -MF CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_16x80.c.o.d -o CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_16x80.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_6c6cf4_16x80.c
 
 CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_16x80.c.i: cmake_force
@@ -1108,7 +1136,7 @@ CMakeFiles/main.dir/main/img/img_right_released_6c6cf4_16x80.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_right_released_888888_14x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_right_released_888888_14x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_888888_14x26.c
 CMakeFiles/main.dir/main/img/img_right_released_888888_14x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/main.dir/main/img/img_right_released_888888_14x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/main.dir/main/img/img_right_released_888888_14x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_right_released_888888_14x26.c.o -MF CMakeFiles/main.dir/main/img/img_right_released_888888_14x26.c.o.d -o CMakeFiles/main.dir/main/img/img_right_released_888888_14x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_888888_14x26.c
 
 CMakeFiles/main.dir/main/img/img_right_released_888888_14x26.c.i: cmake_force
@@ -1122,7 +1150,7 @@ CMakeFiles/main.dir/main/img/img_right_released_888888_14x26.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_right_released_888888_16x40.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_right_released_888888_16x40.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_888888_16x40.c
 CMakeFiles/main.dir/main/img/img_right_released_888888_16x40.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/main.dir/main/img/img_right_released_888888_16x40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/main.dir/main/img/img_right_released_888888_16x40.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_right_released_888888_16x40.c.o -MF CMakeFiles/main.dir/main/img/img_right_released_888888_16x40.c.o.d -o CMakeFiles/main.dir/main/img/img_right_released_888888_16x40.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_888888_16x40.c
 
 CMakeFiles/main.dir/main/img/img_right_released_888888_16x40.c.i: cmake_force
@@ -1136,7 +1164,7 @@ CMakeFiles/main.dir/main/img/img_right_released_888888_16x40.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_right_released_ff2600_16x40.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_right_released_ff2600_16x40.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_ff2600_16x40.c
 CMakeFiles/main.dir/main/img/img_right_released_ff2600_16x40.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/main.dir/main/img/img_right_released_ff2600_16x40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/main.dir/main/img/img_right_released_ff2600_16x40.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_right_released_ff2600_16x40.c.o -MF CMakeFiles/main.dir/main/img/img_right_released_ff2600_16x40.c.o.d -o CMakeFiles/main.dir/main/img/img_right_released_ff2600_16x40.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_ff2600_16x40.c
 
 CMakeFiles/main.dir/main/img/img_right_released_ff2600_16x40.c.i: cmake_force
@@ -1147,10 +1175,52 @@ CMakeFiles/main.dir/main/img/img_right_released_ff2600_16x40.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/main/img/img_right_released_ff2600_16x40.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_ff2600_16x40.c -o CMakeFiles/main.dir/main/img/img_right_released_ff2600_16x40.c.s
 
+CMakeFiles/main.dir/main/img/img_right_pressed_9797ff_14x26.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/main/img/img_right_pressed_9797ff_14x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_pressed_9797ff_14x26.c
+CMakeFiles/main.dir/main/img/img_right_pressed_9797ff_14x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/main.dir/main/img/img_right_pressed_9797ff_14x26.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_right_pressed_9797ff_14x26.c.o -MF CMakeFiles/main.dir/main/img/img_right_pressed_9797ff_14x26.c.o.d -o CMakeFiles/main.dir/main/img/img_right_pressed_9797ff_14x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_pressed_9797ff_14x26.c
+
+CMakeFiles/main.dir/main/img/img_right_pressed_9797ff_14x26.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/main/img/img_right_pressed_9797ff_14x26.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_pressed_9797ff_14x26.c > CMakeFiles/main.dir/main/img/img_right_pressed_9797ff_14x26.c.i
+
+CMakeFiles/main.dir/main/img/img_right_pressed_9797ff_14x26.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/main/img/img_right_pressed_9797ff_14x26.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_pressed_9797ff_14x26.c -o CMakeFiles/main.dir/main/img/img_right_pressed_9797ff_14x26.c.s
+
+CMakeFiles/main.dir/main/img/img_mid_pressed_9797ff_4x26.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/main/img/img_mid_pressed_9797ff_4x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_pressed_9797ff_4x26.c
+CMakeFiles/main.dir/main/img/img_mid_pressed_9797ff_4x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/main.dir/main/img/img_mid_pressed_9797ff_4x26.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_mid_pressed_9797ff_4x26.c.o -MF CMakeFiles/main.dir/main/img/img_mid_pressed_9797ff_4x26.c.o.d -o CMakeFiles/main.dir/main/img/img_mid_pressed_9797ff_4x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_pressed_9797ff_4x26.c
+
+CMakeFiles/main.dir/main/img/img_mid_pressed_9797ff_4x26.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/main/img/img_mid_pressed_9797ff_4x26.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_pressed_9797ff_4x26.c > CMakeFiles/main.dir/main/img/img_mid_pressed_9797ff_4x26.c.i
+
+CMakeFiles/main.dir/main/img/img_mid_pressed_9797ff_4x26.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/main/img/img_mid_pressed_9797ff_4x26.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_pressed_9797ff_4x26.c -o CMakeFiles/main.dir/main/img/img_mid_pressed_9797ff_4x26.c.s
+
+CMakeFiles/main.dir/main/img/img_left_pressed_9797ff_14x26.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/main/img/img_left_pressed_9797ff_14x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_9797ff_14x26.c
+CMakeFiles/main.dir/main/img/img_left_pressed_9797ff_14x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/main.dir/main/img/img_left_pressed_9797ff_14x26.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_left_pressed_9797ff_14x26.c.o -MF CMakeFiles/main.dir/main/img/img_left_pressed_9797ff_14x26.c.o.d -o CMakeFiles/main.dir/main/img/img_left_pressed_9797ff_14x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_9797ff_14x26.c
+
+CMakeFiles/main.dir/main/img/img_left_pressed_9797ff_14x26.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/main/img/img_left_pressed_9797ff_14x26.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_9797ff_14x26.c > CMakeFiles/main.dir/main/img/img_left_pressed_9797ff_14x26.c.i
+
+CMakeFiles/main.dir/main/img/img_left_pressed_9797ff_14x26.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/main/img/img_left_pressed_9797ff_14x26.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_9797ff_14x26.c -o CMakeFiles/main.dir/main/img/img_left_pressed_9797ff_14x26.c.s
+
 CMakeFiles/main.dir/main/img/img_guide_back.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_guide_back.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_guide_back.c
 CMakeFiles/main.dir/main/img/img_guide_back.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/main.dir/main/img/img_guide_back.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/main.dir/main/img/img_guide_back.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_guide_back.c.o -MF CMakeFiles/main.dir/main/img/img_guide_back.c.o.d -o CMakeFiles/main.dir/main/img/img_guide_back.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_guide_back.c
 
 CMakeFiles/main.dir/main/img/img_guide_back.c.i: cmake_force
@@ -1164,7 +1234,7 @@ CMakeFiles/main.dir/main/img/img_guide_back.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_screen_shape.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_screen_shape.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_screen_shape.c
 CMakeFiles/main.dir/main/img/img_screen_shape.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/main.dir/main/img/img_screen_shape.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/main.dir/main/img/img_screen_shape.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_screen_shape.c.o -MF CMakeFiles/main.dir/main/img/img_screen_shape.c.o.d -o CMakeFiles/main.dir/main/img/img_screen_shape.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_screen_shape.c
 
 CMakeFiles/main.dir/main/img/img_screen_shape.c.i: cmake_force
@@ -1178,7 +1248,7 @@ CMakeFiles/main.dir/main/img/img_screen_shape.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_slider_knob_1.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_slider_knob_1.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_slider_knob_1.c
 CMakeFiles/main.dir/main/img/img_slider_knob_1.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/main.dir/main/img/img_slider_knob_1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/main.dir/main/img/img_slider_knob_1.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_slider_knob_1.c.o -MF CMakeFiles/main.dir/main/img/img_slider_knob_1.c.o.d -o CMakeFiles/main.dir/main/img/img_slider_knob_1.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_slider_knob_1.c
 
 CMakeFiles/main.dir/main/img/img_slider_knob_1.c.i: cmake_force
@@ -1192,7 +1262,7 @@ CMakeFiles/main.dir/main/img/img_slider_knob_1.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_slider_knob_2.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_slider_knob_2.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_slider_knob_2.c
 CMakeFiles/main.dir/main/img/img_slider_knob_2.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/main.dir/main/img/img_slider_knob_2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/main.dir/main/img/img_slider_knob_2.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_slider_knob_2.c.o -MF CMakeFiles/main.dir/main/img/img_slider_knob_2.c.o.d -o CMakeFiles/main.dir/main/img/img_slider_knob_2.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_slider_knob_2.c
 
 CMakeFiles/main.dir/main/img/img_slider_knob_2.c.i: cmake_force
@@ -1206,7 +1276,7 @@ CMakeFiles/main.dir/main/img/img_slider_knob_2.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_slider_knob_3.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_slider_knob_3.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_slider_knob_3.c
 CMakeFiles/main.dir/main/img/img_slider_knob_3.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/main.dir/main/img/img_slider_knob_3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/main.dir/main/img/img_slider_knob_3.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_slider_knob_3.c.o -MF CMakeFiles/main.dir/main/img/img_slider_knob_3.c.o.d -o CMakeFiles/main.dir/main/img/img_slider_knob_3.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_slider_knob_3.c
 
 CMakeFiles/main.dir/main/img/img_slider_knob_3.c.i: cmake_force
@@ -1220,7 +1290,7 @@ CMakeFiles/main.dir/main/img/img_slider_knob_3.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_slider_knob_4.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_slider_knob_4.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_slider_knob_4.c
 CMakeFiles/main.dir/main/img/img_slider_knob_4.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/main.dir/main/img/img_slider_knob_4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/main.dir/main/img/img_slider_knob_4.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_slider_knob_4.c.o -MF CMakeFiles/main.dir/main/img/img_slider_knob_4.c.o.d -o CMakeFiles/main.dir/main/img/img_slider_knob_4.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_slider_knob_4.c
 
 CMakeFiles/main.dir/main/img/img_slider_knob_4.c.i: cmake_force
@@ -1234,7 +1304,7 @@ CMakeFiles/main.dir/main/img/img_slider_knob_4.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_success.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_success.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_success.c
 CMakeFiles/main.dir/main/img/img_success.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/main.dir/main/img/img_success.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/main.dir/main/img/img_success.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_success.c.o -MF CMakeFiles/main.dir/main/img/img_success.c.o.d -o CMakeFiles/main.dir/main/img/img_success.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_success.c
 
 CMakeFiles/main.dir/main/img/img_success.c.i: cmake_force
@@ -1248,7 +1318,7 @@ CMakeFiles/main.dir/main/img/img_success.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_unchosen.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_unchosen.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_unchosen.c
 CMakeFiles/main.dir/main/img/img_unchosen.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/main.dir/main/img/img_unchosen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/main.dir/main/img/img_unchosen.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_unchosen.c.o -MF CMakeFiles/main.dir/main/img/img_unchosen.c.o.d -o CMakeFiles/main.dir/main/img/img_unchosen.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_unchosen.c
 
 CMakeFiles/main.dir/main/img/img_unchosen.c.i: cmake_force
@@ -1262,7 +1332,7 @@ CMakeFiles/main.dir/main/img/img_unchosen.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_right_pressed_ffef4b_14x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_right_pressed_ffef4b_14x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_pressed_ffef4b_14x26.c
 CMakeFiles/main.dir/main/img/img_right_pressed_ffef4b_14x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/main.dir/main/img/img_right_pressed_ffef4b_14x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/main.dir/main/img/img_right_pressed_ffef4b_14x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_right_pressed_ffef4b_14x26.c.o -MF CMakeFiles/main.dir/main/img/img_right_pressed_ffef4b_14x26.c.o.d -o CMakeFiles/main.dir/main/img/img_right_pressed_ffef4b_14x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_pressed_ffef4b_14x26.c
 
 CMakeFiles/main.dir/main/img/img_right_pressed_ffef4b_14x26.c.i: cmake_force
@@ -1276,7 +1346,7 @@ CMakeFiles/main.dir/main/img/img_right_pressed_ffef4b_14x26.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_right_released_10e807_14x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_right_released_10e807_14x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_10e807_14x26.c
 CMakeFiles/main.dir/main/img/img_right_released_10e807_14x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/main.dir/main/img/img_right_released_10e807_14x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/main.dir/main/img/img_right_released_10e807_14x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_right_released_10e807_14x26.c.o -MF CMakeFiles/main.dir/main/img/img_right_released_10e807_14x26.c.o.d -o CMakeFiles/main.dir/main/img/img_right_released_10e807_14x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_10e807_14x26.c
 
 CMakeFiles/main.dir/main/img/img_right_released_10e807_14x26.c.i: cmake_force
@@ -1290,7 +1360,7 @@ CMakeFiles/main.dir/main/img/img_right_released_10e807_14x26.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_right_released_f7e100_14x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_right_released_f7e100_14x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_f7e100_14x26.c
 CMakeFiles/main.dir/main/img/img_right_released_f7e100_14x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/main.dir/main/img/img_right_released_f7e100_14x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/main.dir/main/img/img_right_released_f7e100_14x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_right_released_f7e100_14x26.c.o -MF CMakeFiles/main.dir/main/img/img_right_released_f7e100_14x26.c.o.d -o CMakeFiles/main.dir/main/img/img_right_released_f7e100_14x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_f7e100_14x26.c
 
 CMakeFiles/main.dir/main/img/img_right_released_f7e100_14x26.c.i: cmake_force
@@ -1304,7 +1374,7 @@ CMakeFiles/main.dir/main/img/img_right_released_f7e100_14x26.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_mid_released_f7e100_4x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_mid_released_f7e100_4x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_released_f7e100_4x26.c
 CMakeFiles/main.dir/main/img/img_mid_released_f7e100_4x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/main.dir/main/img/img_mid_released_f7e100_4x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/main.dir/main/img/img_mid_released_f7e100_4x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_mid_released_f7e100_4x26.c.o -MF CMakeFiles/main.dir/main/img/img_mid_released_f7e100_4x26.c.o.d -o CMakeFiles/main.dir/main/img/img_mid_released_f7e100_4x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_released_f7e100_4x26.c
 
 CMakeFiles/main.dir/main/img/img_mid_released_f7e100_4x26.c.i: cmake_force
@@ -1318,7 +1388,7 @@ CMakeFiles/main.dir/main/img/img_mid_released_f7e100_4x26.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_right_pressed_61fc5a_14x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_right_pressed_61fc5a_14x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_pressed_61fc5a_14x26.c
 CMakeFiles/main.dir/main/img/img_right_pressed_61fc5a_14x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/main.dir/main/img/img_right_pressed_61fc5a_14x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/main.dir/main/img/img_right_pressed_61fc5a_14x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_right_pressed_61fc5a_14x26.c.o -MF CMakeFiles/main.dir/main/img/img_right_pressed_61fc5a_14x26.c.o.d -o CMakeFiles/main.dir/main/img/img_right_pressed_61fc5a_14x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_pressed_61fc5a_14x26.c
 
 CMakeFiles/main.dir/main/img/img_right_pressed_61fc5a_14x26.c.i: cmake_force
@@ -1332,7 +1402,7 @@ CMakeFiles/main.dir/main/img/img_right_pressed_61fc5a_14x26.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_mid_released_10e807_4x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_mid_released_10e807_4x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_released_10e807_4x26.c
 CMakeFiles/main.dir/main/img/img_mid_released_10e807_4x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/main.dir/main/img/img_mid_released_10e807_4x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/main.dir/main/img/img_mid_released_10e807_4x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_mid_released_10e807_4x26.c.o -MF CMakeFiles/main.dir/main/img/img_mid_released_10e807_4x26.c.o.d -o CMakeFiles/main.dir/main/img/img_mid_released_10e807_4x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_released_10e807_4x26.c
 
 CMakeFiles/main.dir/main/img/img_mid_released_10e807_4x26.c.i: cmake_force
@@ -1346,7 +1416,7 @@ CMakeFiles/main.dir/main/img/img_mid_released_10e807_4x26.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_left_released_10e807_14x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_left_released_10e807_14x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_released_10e807_14x26.c
 CMakeFiles/main.dir/main/img/img_left_released_10e807_14x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/main.dir/main/img/img_left_released_10e807_14x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/main.dir/main/img/img_left_released_10e807_14x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_left_released_10e807_14x26.c.o -MF CMakeFiles/main.dir/main/img/img_left_released_10e807_14x26.c.o.d -o CMakeFiles/main.dir/main/img/img_left_released_10e807_14x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_released_10e807_14x26.c
 
 CMakeFiles/main.dir/main/img/img_left_released_10e807_14x26.c.i: cmake_force
@@ -1360,7 +1430,7 @@ CMakeFiles/main.dir/main/img/img_left_released_10e807_14x26.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_left_released_f7e100_14x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_left_released_f7e100_14x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_released_f7e100_14x26.c
 CMakeFiles/main.dir/main/img/img_left_released_f7e100_14x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/main.dir/main/img/img_left_released_f7e100_14x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/main.dir/main/img/img_left_released_f7e100_14x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_left_released_f7e100_14x26.c.o -MF CMakeFiles/main.dir/main/img/img_left_released_f7e100_14x26.c.o.d -o CMakeFiles/main.dir/main/img/img_left_released_f7e100_14x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_released_f7e100_14x26.c
 
 CMakeFiles/main.dir/main/img/img_left_released_f7e100_14x26.c.i: cmake_force
@@ -1374,7 +1444,7 @@ CMakeFiles/main.dir/main/img/img_left_released_f7e100_14x26.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_mid_pressed_61fc5a_4x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_mid_pressed_61fc5a_4x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_pressed_61fc5a_4x26.c
 CMakeFiles/main.dir/main/img/img_mid_pressed_61fc5a_4x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/main.dir/main/img/img_mid_pressed_61fc5a_4x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/main.dir/main/img/img_mid_pressed_61fc5a_4x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_mid_pressed_61fc5a_4x26.c.o -MF CMakeFiles/main.dir/main/img/img_mid_pressed_61fc5a_4x26.c.o.d -o CMakeFiles/main.dir/main/img/img_mid_pressed_61fc5a_4x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_pressed_61fc5a_4x26.c
 
 CMakeFiles/main.dir/main/img/img_mid_pressed_61fc5a_4x26.c.i: cmake_force
@@ -1388,7 +1458,7 @@ CMakeFiles/main.dir/main/img/img_mid_pressed_61fc5a_4x26.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_mid_pressed_ffef4b_4x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_mid_pressed_ffef4b_4x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_pressed_ffef4b_4x26.c
 CMakeFiles/main.dir/main/img/img_mid_pressed_ffef4b_4x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/main.dir/main/img/img_mid_pressed_ffef4b_4x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/main.dir/main/img/img_mid_pressed_ffef4b_4x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_mid_pressed_ffef4b_4x26.c.o -MF CMakeFiles/main.dir/main/img/img_mid_pressed_ffef4b_4x26.c.o.d -o CMakeFiles/main.dir/main/img/img_mid_pressed_ffef4b_4x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_pressed_ffef4b_4x26.c
 
 CMakeFiles/main.dir/main/img/img_mid_pressed_ffef4b_4x26.c.i: cmake_force
@@ -1402,7 +1472,7 @@ CMakeFiles/main.dir/main/img/img_mid_pressed_ffef4b_4x26.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_back.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_back.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_back.c
 CMakeFiles/main.dir/main/img/img_keypad_back.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/main.dir/main/img/img_keypad_back.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/main.dir/main/img/img_keypad_back.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_back.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_back.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_back.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_back.c
 
 CMakeFiles/main.dir/main/img/img_keypad_back.c.i: cmake_force
@@ -1416,7 +1486,7 @@ CMakeFiles/main.dir/main/img/img_keypad_back.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_confirm.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_confirm.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_confirm.c
 CMakeFiles/main.dir/main/img/img_keypad_confirm.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/main.dir/main/img/img_keypad_confirm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/main.dir/main/img/img_keypad_confirm.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_confirm.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_confirm.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_confirm.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_confirm.c
 
 CMakeFiles/main.dir/main/img/img_keypad_confirm.c.i: cmake_force
@@ -1430,7 +1500,7 @@ CMakeFiles/main.dir/main/img/img_keypad_confirm.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_left_pressed_61fc5a_14x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_left_pressed_61fc5a_14x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_61fc5a_14x26.c
 CMakeFiles/main.dir/main/img/img_left_pressed_61fc5a_14x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/main.dir/main/img/img_left_pressed_61fc5a_14x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/main.dir/main/img/img_left_pressed_61fc5a_14x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_left_pressed_61fc5a_14x26.c.o -MF CMakeFiles/main.dir/main/img/img_left_pressed_61fc5a_14x26.c.o.d -o CMakeFiles/main.dir/main/img/img_left_pressed_61fc5a_14x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_61fc5a_14x26.c
 
 CMakeFiles/main.dir/main/img/img_left_pressed_61fc5a_14x26.c.i: cmake_force
@@ -1444,7 +1514,7 @@ CMakeFiles/main.dir/main/img/img_left_pressed_61fc5a_14x26.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_left_pressed_ffef4b_14x26.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_left_pressed_ffef4b_14x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_ffef4b_14x26.c
 CMakeFiles/main.dir/main/img/img_left_pressed_ffef4b_14x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/main.dir/main/img/img_left_pressed_ffef4b_14x26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/main.dir/main/img/img_left_pressed_ffef4b_14x26.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_left_pressed_ffef4b_14x26.c.o -MF CMakeFiles/main.dir/main/img/img_left_pressed_ffef4b_14x26.c.o.d -o CMakeFiles/main.dir/main/img/img_left_pressed_ffef4b_14x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_ffef4b_14x26.c
 
 CMakeFiles/main.dir/main/img/img_left_pressed_ffef4b_14x26.c.i: cmake_force
@@ -1455,10 +1525,94 @@ CMakeFiles/main.dir/main/img/img_left_pressed_ffef4b_14x26.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/main/img/img_left_pressed_ffef4b_14x26.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_ffef4b_14x26.c -o CMakeFiles/main.dir/main/img/img_left_pressed_ffef4b_14x26.c.s
 
+CMakeFiles/main.dir/main/img/img_right_released_ff2600_14x26.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/main/img/img_right_released_ff2600_14x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_ff2600_14x26.c
+CMakeFiles/main.dir/main/img/img_right_released_ff2600_14x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/main.dir/main/img/img_right_released_ff2600_14x26.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_right_released_ff2600_14x26.c.o -MF CMakeFiles/main.dir/main/img/img_right_released_ff2600_14x26.c.o.d -o CMakeFiles/main.dir/main/img/img_right_released_ff2600_14x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_ff2600_14x26.c
+
+CMakeFiles/main.dir/main/img/img_right_released_ff2600_14x26.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/main/img/img_right_released_ff2600_14x26.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_ff2600_14x26.c > CMakeFiles/main.dir/main/img/img_right_released_ff2600_14x26.c.i
+
+CMakeFiles/main.dir/main/img/img_right_released_ff2600_14x26.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/main/img/img_right_released_ff2600_14x26.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_released_ff2600_14x26.c -o CMakeFiles/main.dir/main/img/img_right_released_ff2600_14x26.c.s
+
+CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x26.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_released_ff2600_4x26.c
+CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x26.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x26.c.o -MF CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x26.c.o.d -o CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_released_ff2600_4x26.c
+
+CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x26.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x26.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_released_ff2600_4x26.c > CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x26.c.i
+
+CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x26.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x26.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_released_ff2600_4x26.c -o CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x26.c.s
+
+CMakeFiles/main.dir/main/img/img_left_released_ff2600_14x26.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/main/img/img_left_released_ff2600_14x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_released_ff2600_14x26.c
+CMakeFiles/main.dir/main/img/img_left_released_ff2600_14x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/main.dir/main/img/img_left_released_ff2600_14x26.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_left_released_ff2600_14x26.c.o -MF CMakeFiles/main.dir/main/img/img_left_released_ff2600_14x26.c.o.d -o CMakeFiles/main.dir/main/img/img_left_released_ff2600_14x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_released_ff2600_14x26.c
+
+CMakeFiles/main.dir/main/img/img_left_released_ff2600_14x26.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/main/img/img_left_released_ff2600_14x26.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_released_ff2600_14x26.c > CMakeFiles/main.dir/main/img/img_left_released_ff2600_14x26.c.i
+
+CMakeFiles/main.dir/main/img/img_left_released_ff2600_14x26.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/main/img/img_left_released_ff2600_14x26.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_released_ff2600_14x26.c -o CMakeFiles/main.dir/main/img/img_left_released_ff2600_14x26.c.s
+
+CMakeFiles/main.dir/main/img/img_right_pressed_ff6247_14x26.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/main/img/img_right_pressed_ff6247_14x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_pressed_ff6247_14x26.c
+CMakeFiles/main.dir/main/img/img_right_pressed_ff6247_14x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/main.dir/main/img/img_right_pressed_ff6247_14x26.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_right_pressed_ff6247_14x26.c.o -MF CMakeFiles/main.dir/main/img/img_right_pressed_ff6247_14x26.c.o.d -o CMakeFiles/main.dir/main/img/img_right_pressed_ff6247_14x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_pressed_ff6247_14x26.c
+
+CMakeFiles/main.dir/main/img/img_right_pressed_ff6247_14x26.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/main/img/img_right_pressed_ff6247_14x26.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_pressed_ff6247_14x26.c > CMakeFiles/main.dir/main/img/img_right_pressed_ff6247_14x26.c.i
+
+CMakeFiles/main.dir/main/img/img_right_pressed_ff6247_14x26.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/main/img/img_right_pressed_ff6247_14x26.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_right_pressed_ff6247_14x26.c -o CMakeFiles/main.dir/main/img/img_right_pressed_ff6247_14x26.c.s
+
+CMakeFiles/main.dir/main/img/img_mid_pressed_ff6247_4x26.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/main/img/img_mid_pressed_ff6247_4x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_pressed_ff6247_4x26.c
+CMakeFiles/main.dir/main/img/img_mid_pressed_ff6247_4x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/main.dir/main/img/img_mid_pressed_ff6247_4x26.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_mid_pressed_ff6247_4x26.c.o -MF CMakeFiles/main.dir/main/img/img_mid_pressed_ff6247_4x26.c.o.d -o CMakeFiles/main.dir/main/img/img_mid_pressed_ff6247_4x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_pressed_ff6247_4x26.c
+
+CMakeFiles/main.dir/main/img/img_mid_pressed_ff6247_4x26.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/main/img/img_mid_pressed_ff6247_4x26.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_pressed_ff6247_4x26.c > CMakeFiles/main.dir/main/img/img_mid_pressed_ff6247_4x26.c.i
+
+CMakeFiles/main.dir/main/img/img_mid_pressed_ff6247_4x26.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/main/img/img_mid_pressed_ff6247_4x26.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_mid_pressed_ff6247_4x26.c -o CMakeFiles/main.dir/main/img/img_mid_pressed_ff6247_4x26.c.s
+
+CMakeFiles/main.dir/main/img/img_left_pressed_ff6247_14x26.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/main/img/img_left_pressed_ff6247_14x26.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_ff6247_14x26.c
+CMakeFiles/main.dir/main/img/img_left_pressed_ff6247_14x26.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/main.dir/main/img/img_left_pressed_ff6247_14x26.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_left_pressed_ff6247_14x26.c.o -MF CMakeFiles/main.dir/main/img/img_left_pressed_ff6247_14x26.c.o.d -o CMakeFiles/main.dir/main/img/img_left_pressed_ff6247_14x26.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_ff6247_14x26.c
+
+CMakeFiles/main.dir/main/img/img_left_pressed_ff6247_14x26.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/main/img/img_left_pressed_ff6247_14x26.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_ff6247_14x26.c > CMakeFiles/main.dir/main/img/img_left_pressed_ff6247_14x26.c.i
+
+CMakeFiles/main.dir/main/img/img_left_pressed_ff6247_14x26.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/main/img/img_left_pressed_ff6247_14x26.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_left_pressed_ff6247_14x26.c -o CMakeFiles/main.dir/main/img/img_left_pressed_ff6247_14x26.c.s
+
 CMakeFiles/main.dir/main/img/img_chosen.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_chosen.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_chosen.c
 CMakeFiles/main.dir/main/img/img_chosen.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/main.dir/main/img/img_chosen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/main.dir/main/img/img_chosen.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_chosen.c.o -MF CMakeFiles/main.dir/main/img/img_chosen.c.o.d -o CMakeFiles/main.dir/main/img/img_chosen.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_chosen.c
 
 CMakeFiles/main.dir/main/img/img_chosen.c.i: cmake_force
@@ -1472,7 +1626,7 @@ CMakeFiles/main.dir/main/img/img_chosen.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_alert.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_alert.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_alert.c
 CMakeFiles/main.dir/main/img/img_alert.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/main.dir/main/img/img_alert.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/main.dir/main/img/img_alert.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_alert.c.o -MF CMakeFiles/main.dir/main/img/img_alert.c.o.d -o CMakeFiles/main.dir/main/img/img_alert.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_alert.c
 
 CMakeFiles/main.dir/main/img/img_alert.c.i: cmake_force
@@ -1486,7 +1640,7 @@ CMakeFiles/main.dir/main/img/img_alert.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_waiting.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_waiting.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_waiting.c
 CMakeFiles/main.dir/main/img/img_waiting.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/main.dir/main/img/img_waiting.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/main.dir/main/img/img_waiting.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_waiting.c.o -MF CMakeFiles/main.dir/main/img/img_waiting.c.o.d -o CMakeFiles/main.dir/main/img/img_waiting.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_waiting.c
 
 CMakeFiles/main.dir/main/img/img_waiting.c.i: cmake_force
@@ -1500,7 +1654,7 @@ CMakeFiles/main.dir/main/img/img_waiting.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_q.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_q.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_q.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_q.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_q.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_q.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_q.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_q.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_q.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_q.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_q.c.i: cmake_force
@@ -1514,7 +1668,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_q.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_w.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_w.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_w.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_w.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_w.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_w.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_w.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_w.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_w.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_w.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_w.c.i: cmake_force
@@ -1528,7 +1682,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_w.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_e.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_e.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_e.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_e.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_e.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_e.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_e.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_e.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_e.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_e.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_e.c.i: cmake_force
@@ -1542,7 +1696,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_e.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_r.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_r.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_r.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_r.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_r.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_r.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_r.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_r.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_r.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_r.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_r.c.i: cmake_force
@@ -1556,7 +1710,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_r.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_t.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_t.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_t.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_t.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_t.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_t.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_t.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_t.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_t.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_t.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_t.c.i: cmake_force
@@ -1570,7 +1724,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_t.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_y.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_y.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_y.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_y.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_y.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_y.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_y.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_y.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_y.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_y.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_y.c.i: cmake_force
@@ -1584,7 +1738,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_y.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_u.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_u.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_u.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_u.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_u.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_u.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_u.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_u.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_u.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_u.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_u.c.i: cmake_force
@@ -1598,7 +1752,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_u.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_i.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_i.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_i.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_i.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_i.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_i.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_i.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_i.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_i.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_i.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_i.c.i: cmake_force
@@ -1612,7 +1766,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_i.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_o.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_o.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_o.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_o.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_o.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_o.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_o.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_o.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_o.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_o.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_o.c.i: cmake_force
@@ -1626,7 +1780,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_o.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_p.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_p.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_p.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_p.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_p.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_p.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_p.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_p.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_p.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_p.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_p.c.i: cmake_force
@@ -1640,7 +1794,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_p.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_a.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_a.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_a.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_a.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_a.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_a.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_a.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_a.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_a.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_a.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_a.c.i: cmake_force
@@ -1654,7 +1808,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_a.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_s.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_s.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_s.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_s.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_s.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_s.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_s.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_s.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_s.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_s.c.i: cmake_force
@@ -1668,7 +1822,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_s.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_d.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_d.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_d.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_d.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_d.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_d.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_d.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_d.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_d.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_d.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_d.c.i: cmake_force
@@ -1682,7 +1836,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_d.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_f.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_f.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_f.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_f.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_f.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_f.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_f.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_f.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_f.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_f.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_f.c.i: cmake_force
@@ -1696,7 +1850,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_f.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_g.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_g.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_g.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_g.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_g.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_g.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_g.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_g.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_g.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_g.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_g.c.i: cmake_force
@@ -1710,7 +1864,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_g.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_h.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_h.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_h.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_h.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_h.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_h.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_h.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_h.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_h.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_h.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_h.c.i: cmake_force
@@ -1724,7 +1878,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_h.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_j.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_j.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_j.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_j.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_j.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_j.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_j.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_j.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_j.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_j.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_j.c.i: cmake_force
@@ -1738,7 +1892,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_j.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_k.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_k.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_k.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_k.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_k.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_k.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_k.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_k.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_k.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_k.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_k.c.i: cmake_force
@@ -1752,7 +1906,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_k.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_l.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_l.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_l.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_l.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_l.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_l.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_l.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_l.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_l.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_l.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_l.c.i: cmake_force
@@ -1766,7 +1920,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_l.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_z.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_z.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_z.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_z.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_z.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_z.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_z.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_z.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_z.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_z.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_z.c.i: cmake_force
@@ -1780,7 +1934,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_z.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_x.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_x.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_x.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_x.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_x.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_x.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_x.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_x.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_x.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_x.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_x.c.i: cmake_force
@@ -1794,7 +1948,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_x.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_c.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_c.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_c.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_c.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_c.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_c.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_c.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_c.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_c.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_c.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_c.c.i: cmake_force
@@ -1808,7 +1962,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_c.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_v.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_v.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_v.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_v.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_v.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_v.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_v.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_v.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_v.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_v.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_v.c.i: cmake_force
@@ -1822,7 +1976,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_v.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_b.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_b.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_b.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_b.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_b.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_b.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_b.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_b.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_b.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_b.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_b.c.i: cmake_force
@@ -1836,7 +1990,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_b.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_n.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_n.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_n.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_n.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_n.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_n.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_n.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_n.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_n.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_n.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_n.c.i: cmake_force
@@ -1850,7 +2004,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_n.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_666666_m.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_666666_m.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_m.c
 CMakeFiles/main.dir/main/img/img_keypad_666666_m.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_m.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/main.dir/main/img/img_keypad_666666_m.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_666666_m.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_666666_m.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_666666_m.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_666666_m.c
 
 CMakeFiles/main.dir/main/img/img_keypad_666666_m.c.i: cmake_force
@@ -1864,7 +2018,7 @@ CMakeFiles/main.dir/main/img/img_keypad_666666_m.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_q.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_q.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_q.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_q.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_q.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_q.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_q.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_q.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_q.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_q.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_q.c.i: cmake_force
@@ -1878,7 +2032,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_q.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_w.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_w.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_w.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_w.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_w.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_w.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_w.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_w.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_w.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_w.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_w.c.i: cmake_force
@@ -1892,7 +2046,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_w.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_e.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_e.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_e.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_e.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_e.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_e.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_e.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_e.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_e.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_e.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_e.c.i: cmake_force
@@ -1906,7 +2060,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_e.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_r.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_r.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_r.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_r.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_r.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_r.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_r.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_r.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_r.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_r.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_r.c.i: cmake_force
@@ -1920,7 +2074,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_r.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_t.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_t.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_t.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_t.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_t.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_t.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_t.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_t.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_t.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_t.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_t.c.i: cmake_force
@@ -1934,7 +2088,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_t.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_y.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_y.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_y.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_y.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_y.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_y.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_y.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_y.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_y.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_y.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_y.c.i: cmake_force
@@ -1948,7 +2102,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_y.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_u.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_u.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_u.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_u.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_u.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_u.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_u.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_u.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_u.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_u.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_u.c.i: cmake_force
@@ -1962,7 +2116,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_u.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_i.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_i.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_i.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_i.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_i.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_i.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_i.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_i.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_i.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_i.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_i.c.i: cmake_force
@@ -1976,7 +2130,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_i.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_o.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_o.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_o.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_o.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_o.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_o.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_o.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_o.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_o.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_o.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_o.c.i: cmake_force
@@ -1990,7 +2144,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_o.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_p.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_p.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_p.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_p.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_p.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_p.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_p.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_p.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_p.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_p.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_p.c.i: cmake_force
@@ -2004,7 +2158,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_p.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_a.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_a.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_a.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_a.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_a.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_a.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_a.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_a.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_a.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_a.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_a.c.i: cmake_force
@@ -2018,7 +2172,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_a.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_s.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_s.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_s.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_s.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_s.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_s.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_s.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_s.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_s.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_s.c.i: cmake_force
@@ -2032,7 +2186,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_s.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_d.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_d.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_d.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_d.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_d.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_d.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_d.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_d.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_d.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_d.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_d.c.i: cmake_force
@@ -2046,7 +2200,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_d.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_f.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_f.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_f.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_f.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_f.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_f.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_f.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_f.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_f.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_f.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_f.c.i: cmake_force
@@ -2060,7 +2214,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_f.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_g.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_g.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_g.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_g.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_g.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_g.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_g.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_g.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_g.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_g.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_g.c.i: cmake_force
@@ -2074,7 +2228,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_g.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_h.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_h.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_h.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_h.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_h.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_h.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_h.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_h.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_h.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_h.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_h.c.i: cmake_force
@@ -2088,7 +2242,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_h.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_j.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_j.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_j.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_j.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_j.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_j.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_j.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_j.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_j.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_j.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_j.c.i: cmake_force
@@ -2102,7 +2256,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_j.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_k.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_k.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_k.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_k.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_k.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_k.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_k.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_k.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_k.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_k.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_k.c.i: cmake_force
@@ -2116,7 +2270,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_k.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_l.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_l.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_l.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_l.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_l.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_l.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_l.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_l.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_l.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_l.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_l.c.i: cmake_force
@@ -2130,7 +2284,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_l.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_z.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_z.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_z.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_z.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_z.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_z.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_z.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_z.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_z.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_z.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_z.c.i: cmake_force
@@ -2144,7 +2298,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_z.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_x.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_x.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_x.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_x.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_x.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_x.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_x.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_x.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_x.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_x.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_x.c.i: cmake_force
@@ -2158,7 +2312,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_x.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_c.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_c.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_c.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_c.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_c.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_c.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_c.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_c.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_c.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_c.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_c.c.i: cmake_force
@@ -2172,7 +2326,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_c.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_v.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_v.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_v.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_v.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_v.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_v.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_v.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_v.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_v.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_v.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_v.c.i: cmake_force
@@ -2186,7 +2340,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_v.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_b.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_b.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_b.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_b.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_b.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_b.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_b.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_b.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_b.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_b.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_b.c.i: cmake_force
@@ -2200,7 +2354,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_b.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_n.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_n.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_n.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_n.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_n.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_n.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_n.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_n.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_n.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_n.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_n.c.i: cmake_force
@@ -2214,7 +2368,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_n.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_keypad_222222_m.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_keypad_222222_m.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_m.c
 CMakeFiles/main.dir/main/img/img_keypad_222222_m.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_m.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/main.dir/main/img/img_keypad_222222_m.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_keypad_222222_m.c.o -MF CMakeFiles/main.dir/main/img/img_keypad_222222_m.c.o.d -o CMakeFiles/main.dir/main/img/img_keypad_222222_m.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_keypad_222222_m.c
 
 CMakeFiles/main.dir/main/img/img_keypad_222222_m.c.i: cmake_force
@@ -2228,7 +2382,7 @@ CMakeFiles/main.dir/main/img/img_keypad_222222_m.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_startup_arrow.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_startup_arrow.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_startup_arrow.c
 CMakeFiles/main.dir/main/img/img_startup_arrow.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/main.dir/main/img/img_startup_arrow.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/main.dir/main/img/img_startup_arrow.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_startup_arrow.c.o -MF CMakeFiles/main.dir/main/img/img_startup_arrow.c.o.d -o CMakeFiles/main.dir/main/img/img_startup_arrow.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_startup_arrow.c
 
 CMakeFiles/main.dir/main/img/img_startup_arrow.c.i: cmake_force
@@ -2242,7 +2396,7 @@ CMakeFiles/main.dir/main/img/img_startup_arrow.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_screen_shoosen.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_screen_shoosen.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_screen_shoosen.c
 CMakeFiles/main.dir/main/img/img_screen_shoosen.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/main.dir/main/img/img_screen_shoosen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/main.dir/main/img/img_screen_shoosen.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_screen_shoosen.c.o -MF CMakeFiles/main.dir/main/img/img_screen_shoosen.c.o.d -o CMakeFiles/main.dir/main/img/img_screen_shoosen.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_screen_shoosen.c
 
 CMakeFiles/main.dir/main/img/img_screen_shoosen.c.i: cmake_force
@@ -2256,7 +2410,7 @@ CMakeFiles/main.dir/main/img/img_screen_shoosen.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_name.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_name.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_name.c
 CMakeFiles/main.dir/main/img/img_name.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/main.dir/main/img/img_name.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/main.dir/main/img/img_name.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_name.c.o -MF CMakeFiles/main.dir/main/img/img_name.c.o.d -o CMakeFiles/main.dir/main/img/img_name.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_name.c
 
 CMakeFiles/main.dir/main/img/img_name.c.i: cmake_force
@@ -2270,7 +2424,7 @@ CMakeFiles/main.dir/main/img/img_name.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_bg1.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_bg1.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg1.c
 CMakeFiles/main.dir/main/img/img_bg1.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/main.dir/main/img/img_bg1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/main.dir/main/img/img_bg1.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_bg1.c.o -MF CMakeFiles/main.dir/main/img/img_bg1.c.o.d -o CMakeFiles/main.dir/main/img/img_bg1.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg1.c
 
 CMakeFiles/main.dir/main/img/img_bg1.c.i: cmake_force
@@ -2284,7 +2438,7 @@ CMakeFiles/main.dir/main/img/img_bg1.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_bg2.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_bg2.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg2.c
 CMakeFiles/main.dir/main/img/img_bg2.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/main.dir/main/img/img_bg2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/main.dir/main/img/img_bg2.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_bg2.c.o -MF CMakeFiles/main.dir/main/img/img_bg2.c.o.d -o CMakeFiles/main.dir/main/img/img_bg2.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg2.c
 
 CMakeFiles/main.dir/main/img/img_bg2.c.i: cmake_force
@@ -2298,7 +2452,7 @@ CMakeFiles/main.dir/main/img/img_bg2.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_bg3.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_bg3.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg3.c
 CMakeFiles/main.dir/main/img/img_bg3.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/main.dir/main/img/img_bg3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/main.dir/main/img/img_bg3.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_bg3.c.o -MF CMakeFiles/main.dir/main/img/img_bg3.c.o.d -o CMakeFiles/main.dir/main/img/img_bg3.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg3.c
 
 CMakeFiles/main.dir/main/img/img_bg3.c.i: cmake_force
@@ -2312,7 +2466,7 @@ CMakeFiles/main.dir/main/img/img_bg3.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_bg4.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_bg4.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg4.c
 CMakeFiles/main.dir/main/img/img_bg4.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/main.dir/main/img/img_bg4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/main.dir/main/img/img_bg4.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_bg4.c.o -MF CMakeFiles/main.dir/main/img/img_bg4.c.o.d -o CMakeFiles/main.dir/main/img/img_bg4.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg4.c
 
 CMakeFiles/main.dir/main/img/img_bg4.c.i: cmake_force
@@ -2326,7 +2480,7 @@ CMakeFiles/main.dir/main/img/img_bg4.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_bg5.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_bg5.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg5.c
 CMakeFiles/main.dir/main/img/img_bg5.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/main.dir/main/img/img_bg5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/main.dir/main/img/img_bg5.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_bg5.c.o -MF CMakeFiles/main.dir/main/img/img_bg5.c.o.d -o CMakeFiles/main.dir/main/img/img_bg5.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg5.c
 
 CMakeFiles/main.dir/main/img/img_bg5.c.i: cmake_force
@@ -2340,7 +2494,7 @@ CMakeFiles/main.dir/main/img/img_bg5.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_bg6.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_bg6.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg6.c
 CMakeFiles/main.dir/main/img/img_bg6.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/main.dir/main/img/img_bg6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/main.dir/main/img/img_bg6.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_bg6.c.o -MF CMakeFiles/main.dir/main/img/img_bg6.c.o.d -o CMakeFiles/main.dir/main/img/img_bg6.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg6.c
 
 CMakeFiles/main.dir/main/img/img_bg6.c.i: cmake_force
@@ -2354,7 +2508,7 @@ CMakeFiles/main.dir/main/img/img_bg6.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_bg7.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_bg7.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg7.c
 CMakeFiles/main.dir/main/img/img_bg7.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/main.dir/main/img/img_bg7.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/main.dir/main/img/img_bg7.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_bg7.c.o -MF CMakeFiles/main.dir/main/img/img_bg7.c.o.d -o CMakeFiles/main.dir/main/img/img_bg7.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg7.c
 
 CMakeFiles/main.dir/main/img/img_bg7.c.i: cmake_force
@@ -2368,7 +2522,7 @@ CMakeFiles/main.dir/main/img/img_bg7.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_bg1_small.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_bg1_small.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg1_small.c
 CMakeFiles/main.dir/main/img/img_bg1_small.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/main.dir/main/img/img_bg1_small.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/main.dir/main/img/img_bg1_small.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_bg1_small.c.o -MF CMakeFiles/main.dir/main/img/img_bg1_small.c.o.d -o CMakeFiles/main.dir/main/img/img_bg1_small.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg1_small.c
 
 CMakeFiles/main.dir/main/img/img_bg1_small.c.i: cmake_force
@@ -2382,7 +2536,7 @@ CMakeFiles/main.dir/main/img/img_bg1_small.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_bg2_small.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_bg2_small.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg2_small.c
 CMakeFiles/main.dir/main/img/img_bg2_small.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/main.dir/main/img/img_bg2_small.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/main.dir/main/img/img_bg2_small.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_bg2_small.c.o -MF CMakeFiles/main.dir/main/img/img_bg2_small.c.o.d -o CMakeFiles/main.dir/main/img/img_bg2_small.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg2_small.c
 
 CMakeFiles/main.dir/main/img/img_bg2_small.c.i: cmake_force
@@ -2396,7 +2550,7 @@ CMakeFiles/main.dir/main/img/img_bg2_small.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_bg3_small.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_bg3_small.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg3_small.c
 CMakeFiles/main.dir/main/img/img_bg3_small.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/main.dir/main/img/img_bg3_small.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/main.dir/main/img/img_bg3_small.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_bg3_small.c.o -MF CMakeFiles/main.dir/main/img/img_bg3_small.c.o.d -o CMakeFiles/main.dir/main/img/img_bg3_small.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg3_small.c
 
 CMakeFiles/main.dir/main/img/img_bg3_small.c.i: cmake_force
@@ -2410,7 +2564,7 @@ CMakeFiles/main.dir/main/img/img_bg3_small.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_bg4_small.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_bg4_small.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg4_small.c
 CMakeFiles/main.dir/main/img/img_bg4_small.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/main.dir/main/img/img_bg4_small.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/main.dir/main/img/img_bg4_small.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_bg4_small.c.o -MF CMakeFiles/main.dir/main/img/img_bg4_small.c.o.d -o CMakeFiles/main.dir/main/img/img_bg4_small.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg4_small.c
 
 CMakeFiles/main.dir/main/img/img_bg4_small.c.i: cmake_force
@@ -2424,7 +2578,7 @@ CMakeFiles/main.dir/main/img/img_bg4_small.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_bg5_small.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_bg5_small.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg5_small.c
 CMakeFiles/main.dir/main/img/img_bg5_small.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/main.dir/main/img/img_bg5_small.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/main.dir/main/img/img_bg5_small.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_bg5_small.c.o -MF CMakeFiles/main.dir/main/img/img_bg5_small.c.o.d -o CMakeFiles/main.dir/main/img/img_bg5_small.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg5_small.c
 
 CMakeFiles/main.dir/main/img/img_bg5_small.c.i: cmake_force
@@ -2438,7 +2592,7 @@ CMakeFiles/main.dir/main/img/img_bg5_small.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_bg6_small.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_bg6_small.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg6_small.c
 CMakeFiles/main.dir/main/img/img_bg6_small.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/main.dir/main/img/img_bg6_small.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/main.dir/main/img/img_bg6_small.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_bg6_small.c.o -MF CMakeFiles/main.dir/main/img/img_bg6_small.c.o.d -o CMakeFiles/main.dir/main/img/img_bg6_small.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg6_small.c
 
 CMakeFiles/main.dir/main/img/img_bg6_small.c.i: cmake_force
@@ -2452,7 +2606,7 @@ CMakeFiles/main.dir/main/img/img_bg6_small.c.s: cmake_force
 CMakeFiles/main.dir/main/img/img_bg7_small.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/img/img_bg7_small.c.o: /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg7_small.c
 CMakeFiles/main.dir/main/img/img_bg7_small.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/main.dir/main/img/img_bg7_small.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/main.dir/main/img/img_bg7_small.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main/img/img_bg7_small.c.o -MF CMakeFiles/main.dir/main/img/img_bg7_small.c.o.d -o CMakeFiles/main.dir/main/img/img_bg7_small.c.o -c /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/main/img/img_bg7_small.c
 
 CMakeFiles/main.dir/main/img/img_bg7_small.c.i: cmake_force
@@ -2480,6 +2634,7 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/main/src/guide/guide_tutorial/guide_tutorial.c.o" \
 "CMakeFiles/main.dir/main/src/menu/menu_main.c.o" \
 "CMakeFiles/main.dir/main/src/settings/settings_main/settings_main.c.o" \
+"CMakeFiles/main.dir/main/src/settings/settings_power_off/settings_power_off.c.o" \
 "CMakeFiles/main.dir/main/src/settings/settings_about/settings_about.c.o" \
 "CMakeFiles/main.dir/main/src/settings/settings_security/settings_security.c.o" \
 "CMakeFiles/main.dir/main/src/settings/settings_security/settings_reset.c.o" \
@@ -2496,6 +2651,7 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/main/src/startup/startup_recovery/startup_recovery.c.o" \
 "CMakeFiles/main.dir/main/src/startup/startup_screen/startup_screen.c.o" \
 "CMakeFiles/main.dir/main/src/startup/startup_verification/startup_verification.c.o" \
+"CMakeFiles/main.dir/main/src/startup/startup_verification/startup_incorrect_word.c.o" \
 "CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_abort.c.o" \
 "CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_wallet.c.o" \
 "CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_word.c.o" \
@@ -2542,6 +2698,9 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/main/img/img_right_released_888888_14x26.c.o" \
 "CMakeFiles/main.dir/main/img/img_right_released_888888_16x40.c.o" \
 "CMakeFiles/main.dir/main/img/img_right_released_ff2600_16x40.c.o" \
+"CMakeFiles/main.dir/main/img/img_right_pressed_9797ff_14x26.c.o" \
+"CMakeFiles/main.dir/main/img/img_mid_pressed_9797ff_4x26.c.o" \
+"CMakeFiles/main.dir/main/img/img_left_pressed_9797ff_14x26.c.o" \
 "CMakeFiles/main.dir/main/img/img_guide_back.c.o" \
 "CMakeFiles/main.dir/main/img/img_screen_shape.c.o" \
 "CMakeFiles/main.dir/main/img/img_slider_knob_1.c.o" \
@@ -2564,6 +2723,12 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/main/img/img_keypad_confirm.c.o" \
 "CMakeFiles/main.dir/main/img/img_left_pressed_61fc5a_14x26.c.o" \
 "CMakeFiles/main.dir/main/img/img_left_pressed_ffef4b_14x26.c.o" \
+"CMakeFiles/main.dir/main/img/img_right_released_ff2600_14x26.c.o" \
+"CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x26.c.o" \
+"CMakeFiles/main.dir/main/img/img_left_released_ff2600_14x26.c.o" \
+"CMakeFiles/main.dir/main/img/img_right_pressed_ff6247_14x26.c.o" \
+"CMakeFiles/main.dir/main/img/img_mid_pressed_ff6247_4x26.c.o" \
+"CMakeFiles/main.dir/main/img/img_left_pressed_ff6247_14x26.c.o" \
 "CMakeFiles/main.dir/main/img/img_chosen.c.o" \
 "CMakeFiles/main.dir/main/img/img_alert.c.o" \
 "CMakeFiles/main.dir/main/img/img_waiting.c.o" \
@@ -2655,6 +2820,7 @@ main_EXTERNAL_OBJECTS =
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/src/guide/guide_tutorial/guide_tutorial.c.o
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/src/menu/menu_main.c.o
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/src/settings/settings_main/settings_main.c.o
+/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/src/settings/settings_power_off/settings_power_off.c.o
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/src/settings/settings_about/settings_about.c.o
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/src/settings/settings_security/settings_security.c.o
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/src/settings/settings_security/settings_reset.c.o
@@ -2671,6 +2837,7 @@ main_EXTERNAL_OBJECTS =
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/src/startup/startup_recovery/startup_recovery.c.o
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/src/startup/startup_screen/startup_screen.c.o
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/src/startup/startup_verification/startup_verification.c.o
+/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/src/startup/startup_verification/startup_incorrect_word.c.o
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_abort.c.o
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_wallet.c.o
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/src/startup/startup_import/startup_import_word.c.o
@@ -2717,6 +2884,9 @@ main_EXTERNAL_OBJECTS =
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_right_released_888888_14x26.c.o
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_right_released_888888_16x40.c.o
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_right_released_ff2600_16x40.c.o
+/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_right_pressed_9797ff_14x26.c.o
+/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_mid_pressed_9797ff_4x26.c.o
+/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_left_pressed_9797ff_14x26.c.o
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_guide_back.c.o
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_screen_shape.c.o
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_slider_knob_1.c.o
@@ -2739,6 +2909,12 @@ main_EXTERNAL_OBJECTS =
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_keypad_confirm.c.o
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_left_pressed_61fc5a_14x26.c.o
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_left_pressed_ffef4b_14x26.c.o
+/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_right_released_ff2600_14x26.c.o
+/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_mid_released_ff2600_4x26.c.o
+/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_left_released_ff2600_14x26.c.o
+/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_right_pressed_ff6247_14x26.c.o
+/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_mid_pressed_ff6247_4x26.c.o
+/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_left_pressed_ff6247_14x26.c.o
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_chosen.c.o
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_alert.c.o
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/main/img/img_waiting.c.o
@@ -2819,7 +2995,7 @@ main_EXTERNAL_OBJECTS =
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: /opt/homebrew/Cellar/sdl2/2.30.5/lib/libSDL2.dylib
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: lib/liblvgl.a
 /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Linking CXX executable /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Linking CXX executable /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/bin/main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

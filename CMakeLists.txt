@@ -51,6 +51,7 @@ add_executable(main
     main/src/menu/menu_main.c
 	
     main/src/settings/settings_main/settings_main.c
+    main/src/settings/settings_power_off/settings_power_off.c
     main/src/settings/settings_about/settings_about.c
     main/src/settings/settings_security/settings_security.c
     main/src/settings/settings_security/settings_reset.c
@@ -68,6 +69,7 @@ add_executable(main
     main/src/startup/startup_recovery/startup_recovery.c
     main/src/startup/startup_screen/startup_screen.c
     main/src/startup/startup_verification/startup_verification.c
+    main/src/startup/startup_verification/startup_incorrect_word.c
     main/src/startup/startup_import/startup_import_abort.c
     main/src/startup/startup_import/startup_import_wallet.c
     main/src/startup/startup_import/startup_import_word.c
@@ -117,6 +119,10 @@ add_executable(main
     main/img/img_right_released_888888_14x26.c 
     main/img/img_right_released_888888_16x40.c 
     main/img/img_right_released_ff2600_16x40.c 
+    main/img/img_right_pressed_9797ff_14x26.c 
+    main/img/img_mid_pressed_9797ff_4x26.c 
+    main/img/img_left_pressed_9797ff_14x26.c 
+    
     main/img/img_guide_back.c 
     main/img/img_screen_shape.c 
     main/img/img_slider_knob_1.c 
@@ -139,6 +145,15 @@ add_executable(main
     main/img/img_keypad_confirm.c 
     main/img/img_left_pressed_61fc5a_14x26.c 
     main/img/img_left_pressed_ffef4b_14x26.c 
+
+
+    main/img/img_right_released_ff2600_14x26.c 
+    main/img/img_mid_released_ff2600_4x26.c 
+    main/img/img_left_released_ff2600_14x26.c 
+    main/img/img_right_pressed_ff6247_14x26.c 
+    main/img/img_mid_pressed_ff6247_4x26.c 
+    main/img/img_left_pressed_ff6247_14x26.c 
+    
     main/img/img_chosen.c 
     main/img/img_alert.c 
     main/img/img_waiting.c 	

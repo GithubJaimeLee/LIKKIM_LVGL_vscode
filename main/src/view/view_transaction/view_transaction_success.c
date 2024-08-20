@@ -46,12 +46,12 @@ static void view_transaction_success_bg_cont(lv_obj_t* parent)
     lv_obj_add_flag(img_btn_Done, LV_OBJ_FLAG_CLICKABLE);
 
     lv_obj_t* label_Done = lv_label_create(img_btn_Done);
-    lv_obj_set_style_text_color(label_Done, lv_color_hex(0xffffff), 0);
+    lv_obj_set_style_text_color(label_Done, lv_color_hex(0x000000), 0);
     lv_obj_set_style_text_font(label_Done, &lv_font_montserrat_12, 0);
     lv_obj_set_style_text_align(label_Done, LV_TEXT_ALIGN_CENTER, 0);
     lv_label_set_long_mode(label_Done, LV_LABEL_LONG_DOT);
     lv_obj_set_width(label_Done, 200);
-    lv_label_set_text(label_Done, "done");
+    lv_label_set_text(label_Done, "Done");
     lv_obj_center(label_Done);
     lv_obj_add_flag(label_Done, LV_OBJ_FLAG_SCROLL_CHAIN | LV_OBJ_FLAG_EVENT_BUBBLE);
 }

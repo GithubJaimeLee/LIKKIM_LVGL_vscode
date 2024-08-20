@@ -108,7 +108,7 @@ CMakeFiles/main.dir/all: lvgl/CMakeFiles/lvgl_examples.dir/all
 CMakeFiles/main.dir/all: lvgl/CMakeFiles/lvgl_demos.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -186,7 +186,7 @@ lvgl/CMakeFiles/lvgl.dir/clean:
 lvgl/CMakeFiles/lvgl_thorvg.dir/all: lvgl/CMakeFiles/lvgl.dir/all
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_thorvg.dir/build.make lvgl/CMakeFiles/lvgl_thorvg.dir/depend
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_thorvg.dir/build.make lvgl/CMakeFiles/lvgl_thorvg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=75,76,77,78 "Built target lvgl_thorvg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=74,75,76,77 "Built target lvgl_thorvg"
 .PHONY : lvgl/CMakeFiles/lvgl_thorvg.dir/all
 
 # Build rule for subdir invocation for target.
@@ -212,7 +212,7 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/clean:
 lvgl/CMakeFiles/lvgl_examples.dir/all: lvgl/CMakeFiles/lvgl.dir/all
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/depend
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74 "Built target lvgl_examples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73 "Built target lvgl_examples"
 .PHONY : lvgl/CMakeFiles/lvgl_examples.dir/all
 
 # Build rule for subdir invocation for target.
@@ -238,12 +238,12 @@ lvgl/CMakeFiles/lvgl_examples.dir/clean:
 lvgl/CMakeFiles/lvgl_demos.dir/all: lvgl/CMakeFiles/lvgl.dir/all
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/depend
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=36,37,38,39,40,41,42,43,44,45,46,47,48,49,50 "Built target lvgl_demos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles --progress-num=36,37,38,39,40,41,42,43,44,45,46,47,48,49 "Built target lvgl_demos"
 .PHONY : lvgl/CMakeFiles/lvgl_demos.dir/all
 
 # Build rule for subdir invocation for target.
 lvgl/CMakeFiles/lvgl_demos.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles 49
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lvgl/CMakeFiles/lvgl_demos.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jackielee/Documents/工作流/lv_sim_vscode_sdl/build/CMakeFiles 0
 .PHONY : lvgl/CMakeFiles/lvgl_demos.dir/rule

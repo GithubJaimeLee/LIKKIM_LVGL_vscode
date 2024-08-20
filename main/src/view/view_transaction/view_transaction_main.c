@@ -4,6 +4,7 @@
 
 #include "view_transaction_main.h"
 #include "gui_comm.h"
+#include "gui_data_comm.h"
 
 extern void settings_security_start(void);
 extern void view_transaction_confirm_start(void);
@@ -90,7 +91,7 @@ static void view_transaction_main_bg_cont(lv_obj_t* parent)
 	lv_label_set_long_mode(label_fee_content, LV_LABEL_LONG_WRAP);
 	lv_obj_set_width(label_fee_content, 168);
 	lv_obj_set_pos(label_fee_content, 20, 52);
-	lv_label_set_text(label_fee_content, "label_fee_contentlabel_fee_contentlabel_fee_contentlabel_fee_content");
+	lv_label_set_text(label_fee_content, gui_data_get_transaction_fee_payer());
 	lv_obj_update_layout(label_fee_content);
 	lv_obj_set_size(bg_obj_directions, 200, lv_obj_get_height(label_fee_content) + 52 + 5);
 
@@ -131,7 +132,7 @@ static void view_transaction_main_bg_cont(lv_obj_t* parent)
 	lv_label_set_long_mode(label_format_content, LV_LABEL_LONG_WRAP);
 	lv_obj_set_width(label_format_content, 168);
 	lv_obj_set_pos(label_format_content, 20, 52);
-	lv_label_set_text(label_format_content, "label_format_contentlabel_format_contentlabel_format_contentlabel_format_content");
+	lv_label_set_text(label_format_content, gui_data_get_transaction_format());
 	lv_obj_update_layout(label_format_content);
 
 	lv_obj_t* label_hash = lv_label_create(bg_obj_more);
@@ -140,7 +141,7 @@ static void view_transaction_main_bg_cont(lv_obj_t* parent)
 	lv_label_set_long_mode(label_hash, LV_LABEL_LONG_WRAP);
 	lv_obj_set_width(label_hash, 168);
 	lv_obj_align_to(label_hash, label_format_content, LV_ALIGN_OUT_BOTTOM_MID, 0, 5);
-	lv_label_set_text(label_hash, "Format");
+	lv_label_set_text(label_hash, "Message Hash");
 	lv_obj_update_layout(label_hash);
 
 	lv_obj_t* label_hash_content = lv_label_create(bg_obj_more);
@@ -149,7 +150,7 @@ static void view_transaction_main_bg_cont(lv_obj_t* parent)
 	lv_label_set_long_mode(label_hash_content, LV_LABEL_LONG_WRAP);
 	lv_obj_set_width(label_hash_content, 168);
 	lv_obj_align_to(label_hash_content, label_hash, LV_ALIGN_OUT_BOTTOM_MID, 0, 0);
-	lv_label_set_text(label_hash_content, "label_format_contentlabel_format_contentlabel_format_contentlabel_format_content");
+	lv_label_set_text(label_hash_content, gui_data_get_transaction_hash());
 	lv_obj_update_layout(label_hash_content);
 
 	lv_obj_set_size(bg_obj_more, 200, label_hash_content->coords.y2 + 5);
@@ -160,7 +161,7 @@ static void view_transaction_main_bg_cont(lv_obj_t* parent)
 /*底部按键*/
     lv_obj_t* img_btn_continue = lv_imagebutton_create(parent);
     lv_imagebutton_set_src(img_btn_continue, LV_IMAGEBUTTON_STATE_RELEASED, &img_left_released_6c6cf4_14x26, &img_mid_released_6c6cf4_4x26, &img_right_released_6c6cf4_14x26);
-    lv_imagebutton_set_src(img_btn_continue, LV_IMAGEBUTTON_STATE_PRESSED, &img_left_released_6c6cf4_14x26, &img_mid_released_6c6cf4_4x26, &img_right_released_6c6cf4_14x26);
+    lv_imagebutton_set_src(img_btn_continue, LV_IMAGEBUTTON_STATE_PRESSED, &img_left_pressed_9797ff_14x26, &img_mid_pressed_9797ff_4x26, &img_right_pressed_9797ff_14x26);
     lv_obj_set_width(img_btn_continue, 200);
     lv_obj_set_pos(img_btn_continue, 20, 246);
     lv_obj_add_event_cb(img_btn_continue, continue_cb, LV_EVENT_SHORT_CLICKED, NULL);

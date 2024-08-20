@@ -136,7 +136,7 @@ static void startup_wrong_pin_bg_cont(lv_obj_t* parent)
 
     lv_obj_t* imgbtn_close = lv_imagebutton_create(parent);
     lv_imagebutton_set_src(imgbtn_close, LV_IMAGEBUTTON_STATE_RELEASED, &img_left_released_6c6cf4_14x26, &img_mid_released_6c6cf4_4x26, &img_right_released_6c6cf4_14x26);
-    lv_imagebutton_set_src(imgbtn_close, LV_IMAGEBUTTON_STATE_PRESSED, &img_left_released_6c6cf4_14x26, &img_mid_released_6c6cf4_4x26, &img_right_released_6c6cf4_14x26);
+    lv_imagebutton_set_src(imgbtn_close, LV_IMAGEBUTTON_STATE_PRESSED, &img_left_pressed_9797ff_14x26, &img_mid_pressed_9797ff_4x26, &img_right_pressed_9797ff_14x26);
     lv_obj_set_width(imgbtn_close, 200);
     lv_obj_set_pos(imgbtn_close, 20, 278);
     lv_obj_add_event_cb(imgbtn_close, startup_wrong_btn_cb, LV_EVENT_SHORT_CLICKED, NULL);

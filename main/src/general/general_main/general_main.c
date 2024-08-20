@@ -93,7 +93,12 @@ static void general_main_bg_cont(lv_obj_t* parent)
             lv_obj_t* labe_detail = lv_label_create(img_btn);
 			lv_obj_set_style_text_color(labe_detail, lv_color_hex(0xffffff), 0);
 			lv_obj_set_style_text_font(labe_detail, &lv_font_montserrat_12, 0);
-            lv_label_set_text_fmt(labe_detail, "%d minutes", gui_data_get_lock_time());
+
+			int time = gui_data_get_lock_time();
+			if(time > 0)
+    	        lv_label_set_text_fmt(labe_detail, "%d minutes", time);
+            else
+	            lv_label_set_text(labe_detail, "Never");
             lv_obj_align(labe_detail, LV_ALIGN_RIGHT_MID, -17, 2);
         }
         else if (1 == i)
@@ -109,7 +114,12 @@ static void general_main_bg_cont(lv_obj_t* parent)
             lv_obj_t* labe_detail = lv_label_create(img_btn);
 			lv_obj_set_style_text_color(labe_detail, lv_color_hex(0xffffff), 0);
 			lv_obj_set_style_text_font(labe_detail, &lv_font_montserrat_12, 0);
-            lv_label_set_text_fmt(labe_detail, "%d minutes", gui_data_get_shutdown_time());
+			
+			int time = gui_data_get_shutdown_time();
+			if(time > 0)
+    	        lv_label_set_text_fmt(labe_detail, "%d minutes", time);
+            else
+	            lv_label_set_text(labe_detail, "Never");
             lv_obj_align(labe_detail, LV_ALIGN_RIGHT_MID, -17, 2);
         }
         else

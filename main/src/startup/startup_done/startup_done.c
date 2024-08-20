@@ -62,7 +62,7 @@ static void startup_done_bg_cont(lv_obj_t* parent)
 
     lv_obj_t* img_btn_continue = lv_imagebutton_create(parent);
     lv_imagebutton_set_src(img_btn_continue, LV_IMAGEBUTTON_STATE_RELEASED, &img_left_released_6c6cf4_14x26, &img_mid_released_6c6cf4_4x26, &img_right_released_6c6cf4_14x26);
-    lv_imagebutton_set_src(img_btn_continue, LV_IMAGEBUTTON_STATE_PRESSED, &img_left_released_6c6cf4_14x26, &img_mid_released_6c6cf4_4x26, &img_right_released_6c6cf4_14x26);
+    lv_imagebutton_set_src(img_btn_continue, LV_IMAGEBUTTON_STATE_PRESSED, &img_left_pressed_9797ff_14x26, &img_mid_pressed_9797ff_4x26, &img_right_pressed_9797ff_14x26);
     lv_obj_set_width(img_btn_continue, 96);
     lv_obj_set_pos(img_btn_continue, 124, 278);
     lv_obj_add_event_cb(img_btn_continue, startup_done_continue_handler, LV_EVENT_SHORT_CLICKED, NULL);

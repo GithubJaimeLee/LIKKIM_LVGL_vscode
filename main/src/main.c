@@ -117,13 +117,13 @@ static lv_display_t * hal_init(int32_t w, int32_t h)
 void load_main_screen() {
 	gui_data_init();
 
-//	extern void view_transaction_main_start(void);
-//	view_transaction_main_start();
-	extern void menu_main_start(void);
-	menu_main_start();
-
 //	extern void menu_main_start(void);
 //	menu_main_start();
+	extern void view_transaction_main_start(void);
+	view_transaction_main_start();
+
+//	extern void view_transaction_success_start(void);
+//	view_transaction_success_start();
 //	extern void view_transaction_main_start(void);
 //	view_transaction_main_start();
 

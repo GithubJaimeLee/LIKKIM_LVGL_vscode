@@ -47,6 +47,9 @@ LV_IMG_DECLARE(img_right_released_6c6cf4_16x80);
 LV_IMG_DECLARE(img_right_released_888888_14x26);
 LV_IMG_DECLARE(img_right_released_888888_16x40);
 LV_IMG_DECLARE(img_right_released_ff2600_16x40);
+LV_IMG_DECLARE(img_right_pressed_9797ff_14x26);
+LV_IMG_DECLARE(img_mid_pressed_9797ff_4x26);
+LV_IMG_DECLARE(img_left_pressed_9797ff_14x26);
 LV_IMG_DECLARE(img_guide_back);
 LV_IMG_DECLARE(img_screen_shape);
 LV_IMG_DECLARE(img_slider_knob_1);
@@ -69,6 +72,15 @@ LV_IMG_DECLARE(img_keypad_back);
 LV_IMG_DECLARE(img_keypad_confirm);
 LV_IMG_DECLARE(img_left_pressed_61fc5a_14x26);
 LV_IMG_DECLARE(img_left_pressed_ffef4b_14x26);
+LV_IMG_DECLARE(img_right_released_ff2600_14x26);
+LV_IMG_DECLARE(img_mid_released_ff2600_4x26);
+LV_IMG_DECLARE(img_left_released_ff2600_14x26);
+
+LV_IMG_DECLARE(img_right_pressed_ff6247_14x26);
+LV_IMG_DECLARE(img_mid_pressed_ff6247_4x26);
+LV_IMG_DECLARE(img_left_pressed_ff6247_14x26);
+
+
 LV_IMG_DECLARE(img_chosen);
 LV_IMG_DECLARE(img_alert);
 LV_IMG_DECLARE(img_waiting);

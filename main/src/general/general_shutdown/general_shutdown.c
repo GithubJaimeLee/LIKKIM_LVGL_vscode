@@ -12,10 +12,10 @@ static general_shutdown_t* p_general_shutdown = NULL;
 
 static gui_comm_imgbtn_desc_t gui_comm_imgbtn_num_table[] =
 {
-    {"1 minutes", 20, 66},
-    {"2 minutes", 20, 96},
-    {"5 minutes", 20, 126},
-    {"10 minutes", 20, 156},
+    {"1", 20, 66},
+    {"2", 20, 96},
+    {"5", 20, 126},
+    {"10", 20, 156},
     {"Never", 20, 186},
 };
 
@@ -60,7 +60,7 @@ static void general_shutdown_word_handler(lv_event_t* e)
 		gui_data_set_shutdown_time(p_general_shutdown->shutdown_time);
         
 		lv_imagebutton_set_src(e->original_target, LV_IMAGEBUTTON_STATE_RELEASED, &img_left_released_6c6cf4_14x26, &img_mid_released_6c6cf4_4x26, &img_right_released_6c6cf4_14x26);
-		lv_imagebutton_set_src(e->original_target, LV_IMAGEBUTTON_STATE_PRESSED, &img_left_released_6c6cf4_14x26, &img_mid_released_6c6cf4_4x26, &img_right_released_6c6cf4_14x26);
+		lv_imagebutton_set_src(e->original_target, LV_IMAGEBUTTON_STATE_PRESSED, &img_left_pressed_9797ff_14x26, &img_mid_pressed_9797ff_4x26, &img_right_pressed_9797ff_14x26);
 
         lv_imagebutton_set_src(p_general_shutdown->choosen_btn, LV_IMAGEBUTTON_STATE_RELEASED, &img_left_released_888888_14x26, &img_mid_released_888888_4x26, &img_right_released_888888_14x26);
         lv_imagebutton_set_src(p_general_shutdown->choosen_btn, LV_IMAGEBUTTON_STATE_PRESSED, &img_left_pressed_bbbbbb_14x26, &img_mid_pressed_bbbbbb_4x26, &img_right_pressed_bbbbbb_14x26);
@@ -96,7 +96,7 @@ static void general_shutdown_bg_cont(lv_obj_t* parent)
         {
         	p_general_shutdown->choosen_btn = img_btn;
 			lv_imagebutton_set_src(img_btn, LV_IMAGEBUTTON_STATE_RELEASED, &img_left_released_6c6cf4_14x26, &img_mid_released_6c6cf4_4x26, &img_right_released_6c6cf4_14x26);
-			lv_imagebutton_set_src(img_btn, LV_IMAGEBUTTON_STATE_PRESSED, &img_left_released_6c6cf4_14x26, &img_mid_released_6c6cf4_4x26, &img_right_released_6c6cf4_14x26);
+			lv_imagebutton_set_src(img_btn, LV_IMAGEBUTTON_STATE_PRESSED, &img_left_pressed_9797ff_14x26, &img_mid_pressed_9797ff_4x26, &img_right_pressed_9797ff_14x26);
         }
         else
         {
@@ -111,7 +111,12 @@ static void general_shutdown_bg_cont(lv_obj_t* parent)
         lv_obj_t* label = lv_label_create(img_btn);
 		lv_obj_set_style_text_color(label, lv_color_hex(0xffffff), 0);
 		lv_obj_set_style_text_font(label, &lv_font_montserrat_12, 0);
-        lv_label_set_text(label, gui_comm_imgbtn_num_table[i].str);
+
+		if(i != sizeof(gui_comm_imgbtn_num_table) / sizeof(gui_comm_imgbtn_desc_t) - 1)
+        	lv_label_set_text_fmt(label, "%s minutes", gui_comm_imgbtn_num_table[i].str);
+        else
+			lv_label_set_text_fmt(label, "%s", gui_comm_imgbtn_num_table[i].str);
+			
         lv_obj_center(label);
     }
     lv_obj_t* label_describe = lv_label_create(parent);

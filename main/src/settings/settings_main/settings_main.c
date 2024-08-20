@@ -8,6 +8,8 @@
 extern void menu_main_start(void);
 extern void settings_about_start(void);
 extern void settings_security_start(void);
+extern void settings_power_off_start(void);
+
 
 static settings_main_t* p_settings_main = NULL;
 
@@ -45,6 +47,10 @@ static void settings_main_word_handler(lv_event_t* e)
 		else if(0 == lv_strcmp((char*)e->user_data, "About Device"))
 		{
 			settings_about_start();
+		}
+		else if(0 == lv_strcmp((char*)e->user_data, "Power Off"))
+		{
+			settings_power_off_start();
 		}
     }
 }
